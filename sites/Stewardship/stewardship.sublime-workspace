@@ -1,0 +1,896 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"member",
+				"member_id"
+			],
+			[
+				"las",
+				"last_updated_insert"
+			],
+			[
+				"last",
+				"last_updated"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"fle",
+				"flex-start\talign-items"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"ba",
+				"background-position\tproperty"
+			],
+			[
+				"col",
+				"col-sm-10"
+			],
+			[
+				"off",
+				"offset-md-1"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"text",
+				"text-left"
+			],
+			[
+				"offs",
+				"offset-sm-1"
+			],
+			[
+				"margin-t",
+				"margin-top"
+			],
+			[
+				"arr",
+				"arrowofvictory"
+			],
+			[
+				"mail",
+				"mailto"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"of",
+				"offset-sm-4"
+			],
+			[
+				"pri",
+				"Pricing"
+			],
+			[
+				"orde",
+				"order_id"
+			],
+			[
+				"approved",
+				"approved"
+			],
+			[
+				"approve",
+				"approved"
+			],
+			[
+				"co",
+				"col-sm-12"
+			],
+			[
+				"my",
+				"myaccount"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"contact",
+				"contactForm"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"rand",
+				"randomNumber"
+			],
+			[
+				"val",
+				"value_perc"
+			],
+			[
+				"row",
+				"row_location"
+			],
+			[
+				"pre",
+				"preview"
+			],
+			[
+				"col-md",
+				"col-md-6"
+			],
+			[
+				"LLC",
+				"LLC_name"
+			],
+			[
+				"membe",
+				"member_id"
+			],
+			[
+				"col-sm",
+				"col-sm-12"
+			],
+			[
+				"Char",
+				"characters"
+			],
+			[
+				"CONT",
+				"container"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"fa",
+				"fadeIn"
+			],
+			[
+				"fad",
+				"fadeOut"
+			],
+			[
+				"ea",
+				"ease-in-out"
+			],
+			[
+				"ani",
+				"animation-name"
+			],
+			[
+				"an",
+				"animate"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bx",
+				"boxWidth"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"box",
+				"boxHeight"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"c",
+				"col-lg-8"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"img",
+				"image-rendering"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"buster",
+				"busterOn"
+			],
+			[
+				"fow",
+				"forwards"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"sift",
+				"siftapi"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"su",
+				"subscribers"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"if",
+				"ifelse\tif … else …"
+			],
+			[
+				"user",
+				"useractive"
+			],
+			[
+				"sa",
+				"savedPwd"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"subs",
+				"subscribe"
+			],
+			[
+				"Pass",
+				"Passwords"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"err",
+				"errMsg"
+			],
+			[
+				"has",
+				"hasError"
+			],
+			[
+				"password",
+				"password_confirm"
+			],
+			[
+				"bar",
+				"background-repeat"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"togg",
+				"toggle_hide"
+			],
+			[
+				"el",
+				"elID"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"foot",
+				"foot-logo"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"st",
+				"strong\tTag"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"lato-bold",
+				"lato-bolditalic-webfont"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"her",
+				"hero-img"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"prop",
+				"proposal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 24810,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp64/www/Stewardship/cpanel/register.php",
+		"/C/wamp64/www/Stewardship/contact.php",
+		"/C/wamp64/www/Stewardship/cpanel/css/register.css",
+		"/C/wamp64/www/Stewardship/cpanel/css/site.css",
+		"/C/wamp64/www/Stewardship/cpanel/myaccount.php",
+		"/C/wamp64/www/Stewardship/admin/admin.php",
+		"/C/wamp64/www/Stewardship/admin/includes/navBar.php",
+		"/C/wamp64/www/Stewardship/admin/member_details.php",
+		"/C/wamp64/www/Stewardship/admin/order_details.php",
+		"/C/wamp64/www/Stewardship/cpanel/includes/navBar.php",
+		"/C/wamp64/www/Stewardship/css/site.css",
+		"/C/wamp64/www/Stewardship/cpanel/index.php",
+		"/C/wamp64/www/Stewardship/cpanel/includes/functions.php",
+		"/C/wamp64/www/Stewardship/includes/functions.php",
+		"/C/Users/xadmin/Desktop/Hudgens LLCs",
+		"/C/wamp64/www/Stewardship/services.php",
+		"/C/wamp64/www/Stewardship/privacy.php",
+		"/C/wamp64/www/Stewardship/cpanel/thankyou.php",
+		"/C/wamp64/www/Stewardship/index.php",
+		"/C/wamp64/www/Stewardship/admin/css/site.css",
+		"/C/wamp64/www/Stewardship/admin/css/register.css",
+		"/C/wamp64/www/Stewardship/css/bootstrap.min.css",
+		"/C/wamp64/www/Stewardship/cpanel/css/bootstrap.min.css",
+		"/C/wamp64/www/Stewardship/articles/wp-includes/js/tinymce/tinymce.min.js",
+		"/C/wamp64/www/Stewardship/admin/css/bootstrap.min.css",
+		"/C/wamp64/www/Stewardship/cpanel/includes/footer.php",
+		"/C/wamp64/www/Stewardship/admin/includes/footer.php",
+		"/C/wamp64/www/Stewardship/includes/footer.php",
+		"/C/wamp64/www/ArrowofVictory/css/site.css",
+		"/C/wamp64/www/ArrowofVictory/includes/footer.php",
+		"/C/wamp64/www/ArrowofVictory/blog/wp-config.php",
+		"/C/wamp64/www/ArrowofVictory/cpanel/includes/functions.php",
+		"/C/wamp64/www/ArrowofVictory/includes/functions.php",
+		"/C/wamp64/www/ArrowofVictory/services.php",
+		"/C/wamp64/www/ArrowofVictory/privacy.php",
+		"/C/wamp64/www/ArrowofVictory/contact.php",
+		"/C/wamp64/www/ArrowofVictory/cpanel/includes/navBar.php",
+		"/C/wamp64/www/ArrowofVictory/admin/order_details.php",
+		"/C/wamp64/www/ArrowofVictory/cpanel/myaccount.php",
+		"/C/wamp64/www/ArrowofVictory/cpanel/register.php",
+		"/C/wamp64/www/ArrowofVictory/index.php",
+		"/C/wamp64/www/ArrowofVictory/admin/includes/navBar.php",
+		"/C/wamp64/www/ArrowofVictory/cpanel/index.php",
+		"/C/wamp64/www/ArrowofVictory/admin/css/site.css",
+		"/C/wamp64/www/ArrowofVictory/cpanel/css/site.css",
+		"/C/wamp64/www/ArrowofVictory/admin/admin.php",
+		"/C/wamp64/www/ArrowofVictory/admin/index.php",
+		"/C/wamp64/www/ArrowofVictory/.htaccess",
+		"/C/wamp64/www/ArrowofVictory/cpanel/css/register.css",
+		"/C/wamp64/www/ArrowofVictory/cpanel/thankyou.php",
+		"/C/wamp64/www/ArrowofVictory/cpanel/checkout.php",
+		"/C/wamp64/www/ArrowofVictory/slick/slick.css",
+		"/C/wamp64/www/ArrowofVictory/cpanel/includes/footer.php",
+		"/C/wamp64/www/ArrowofVictory/whyllc/index.php",
+		"/C/wamp64/www/ArrowofVictory/cpanel/logout.php",
+		"/C/wamp64/www/ArrowofVictory/css/normalize.css",
+		"/C/wamp64/www/ArrowofVictory/blog/wp-includes/query.php",
+		"/C/wamp64/www/ArrowofVictory/blog/wp-includes/class-wp.php",
+		"/C/wamp64/www/ArrowofVictory/blog/wp-includes/canonical.php",
+		"/C/wamp64/www/ArrowofVictory/blog/wp-includes/cache.php",
+		"/C/wamp/www/Apokaradokia/images/family.svg",
+		"/C/wamp/www/Gina Nelson/index.php",
+		"/C/wamp/www/RevLove/index.php",
+		"/C/wamp/www/RevLove/images/index.php",
+		"/C/wamp/www/RevLove/css/site.css",
+		"/C/wamp/www/RevLove/css/bootstrap.min.css",
+		"/C/wamp/www/RevLove/resources.php",
+		"/C/wamp/www/RevLove/images/revlove-res-logo.svg",
+		"/C/wamp/www/RevLove/slick/slick-theme.css",
+		"/C/wamp/www/RevLove/images/echelon-26.svg",
+		"/C/wamp/www/LucGrey/index.php",
+		"/C/wamp/www/jenniferevans/contact.php",
+		"/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/index.html",
+		"/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/slick/slick.js",
+		"/C/wamp/www/crazeFitCardioClub/admin/styles.css",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/about.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/updateAbout.php",
+		"/C/DEV/WeeklyGlamour/Bin/System.Net.Http.Formatting.dll.refresh",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/updateHomeHero.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/slide_image_delete.php",
+		"/C/wamp/www/jru/admin/updateProjects.php",
+		"/C/DEV/Leadid_api2/packages/Antlr.3.5.0.2/Antlr.3.5.0.2.nupkg",
+		"/C/DEV/Leadid_api2/LeadiD API/bin/Antlr3.Runtime.pdb",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.AspNet.SignalR.JS.2.2.1/Microsoft.AspNet.SignalR.JS.2.2.1.nupkg",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll.refresh",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.AspNet.SignalR.Core.dll.refresh",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.AspNet.Web.Optimization.WebForms.dll.refresh",
+		"/C/wamp/www/crazeFitCardioClub/index.php",
+		"/C/wamp/www/crazeFitCardioClub/css/styles.css",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/proj_image_delete.php",
+		"/C/wamp/www/crazeFitCardioClub/subscriptions/welcome.php",
+		"/C/wamp/www/crazeFitCardioClub/subscriptions/monthly.php",
+		"/C/wamp/www/crazeFitCardioClub/register.php",
+		"/C/Users/xadmin/Documents/Visual Studio 2013/Projects/samplesandrebates-local/samplesandrebates-local.sln",
+		"/C/wamp/www/crazeFitCardioClub/includes/functions.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/index.php",
+		"/C/wamp/www/jru/admin/index.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/subscriptions.php",
+		"/C/wamp/www/jru/includes/functions.php",
+		"/C/wamp/www/jru/portfolio.php",
+		"/C/wamp/www/crazeFitCardioClub/subscribe.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/manage_users.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/logout.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/admin.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/adminfooterNav.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/adminfooter.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/navBar.php",
+		"/C/wamp/www/crazeFitCardioClub/regimens.php",
+		"/C/wamp/www/crazeFitCardioClub/css/bootstrap.css",
+		"/D/3bm/LEAD ID/Ad-Monster/web/index.html",
+		"/D/3bm/LEAD ID/Ad-Monster/web/css/styles.css",
+		"/C/wamp/www/crazefitCardio/about.php",
+		"/D/3bm/LEAD ID/Ad-Monster/web/css/bootstrap.css",
+		"/D/3bm/LEAD ID/Ad-Monster/web/starter-template.css",
+		"/C/wamp/www/traceSandbox/app/Controller/AppController.php",
+		"/C/wamp/www/traceSandbox/app/View/Layouts/default.ctp",
+		"/C/wamp/www/traceSandbox/app/Plugin/DebugKit/composer.json",
+		"/C/wamp/www/traceSandbox/app/Model/Post.php",
+		"/D/3bm/LEAD ID/MidPath/Web/survey_template.html",
+		"/D/3bm/LEAD ID/MidPath/Web/js/jquery.flexslider.js",
+		"/D/3bm/LEAD ID/MidPath/Web/adjector.html",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap-theme.min.css",
+		"/D/3bm/LEAD ID/MidPath/Web/css/styles.css",
+		"/D/3bm/LEAD ID/MidPath/Web/stacked.html",
+		"/D/3bm/LEAD ID/MidPath/Web/img/Skin_plus_StackedAds_03.png",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap.min.css"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 147.0,
+		"where_history":
+		[
+			"C:\\wamp64\\www\\Stewardship",
+			"C:\\wamp64\\www\\ArrowofVictory,-C:\\wamp64\\www\\ArrowofVictory\\blog\\",
+			"C:\\wamp64\\www\\ArrowofVictory",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scrollto",
+			"order_id",
+			"llc",
+			"createConfirm",
+			".wrapper ",
+			"section",
+			"body",
+			"h2",
+			"col-sm-12 col-md-6",
+			"login",
+			"tagmanager",
+			"TAG",
+			"ArrowOfVictory@arrowofvictory.com",
+			"arrowof",
+			"ArrowOfVictory@ArrowOfVictory",
+			"ArrowOfVictory@ArrowOfVictory.com",
+			"arrowofvictory@arrowofvictory.com",
+			"ArrowOfVictory@arrowofvictory",
+			"ArrowOfVictory",
+			"LLC_",
+			"llc_",
+			"cols-",
+			".navbar-inverse .navbar-toggler-icon",
+			"http",
+			"button.add",
+			"8dc646",
+			"##4164ae",
+			"31bfcb",
+			"offset-1",
+			"em",
+			"ARROW OF <strong>VICTORY</strong>",
+			"268640631",
+			"rgba(60,210,220,0.9)",
+			"#3ad2db",
+			"248201336",
+			".arrowofvictory.",
+			" fixed-top ",
+			"color: #7dc81e;",
+			"login",
+			"background: rgb(45,192,204); /* Old browsers */\nbackground: -moz-linear-gradient(-65deg, rgba(45,192,204,0.85) 50%, rgba(167,211,87,0.85) 50%); /* FF3.6-15 */\nbackground: -webkit-linear-gradient(-65deg, rgba(45,192,204,0.85) 50%,rgba(167,211,87,0.85) 50%); /* Chrome10-25,Safari5.1-6 */\nbackground: linear-gradient(115deg, rgba(45,192,204,0.85) 50%,rgba(167,211,87,0.85) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\nfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2dc0cc', endColorstr='#a7d357',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */\n",
+			"\"/safari-pinned-tab.svg\"",
+			"    <meta name=\"msapplication-TileColor\" content=\"#2dc0cc\">\n    <meta name=\"msapplication-config\" content=\"/images/browserconfig.xml\">\n    <meta name=\"theme-color\" content=\"#333333\">\n",
+			"239186887",
+			"arrowofvictory-",
+			"blog/wp-load.php",
+			"Arrow of Victory, LLC",
+			"UA-118674812-1",
+			"arrow_main",
+			"fontaw",
+			"/>\n",
+			"mission",
+			"\n",
+			"   ",
+			"  ",
+			"\t",
+			"$busterOn = true;",
+			"p\">ARROW OF <strong>VICTORY</strong>",
+			"#home",
+			"e\">ARROW OF <strong>VICTORY</strong>",
+			"col-4 hidden-lg",
+			" col-4 hidden",
+			" btn-primary",
+			"success",
+			"4ff6ff",
+			"Foreign LLC Filing: ",
+			"\n                </p>\n              </div>",
+			"\n              <div class=\"col-sm-12 col-md-4\">",
+			"'\\r\\n ",
+			"password",
+			"arrow_main_live",
+			"arrow_main",
+			"customer",
+			"}\n",
+			"add",
+			" required=\"required\"",
+			"card-",
+			"card",
+			"warning",
+			"strtolower",
+			"href=\"/images/",
+			"if",
+			"test_input",
+			"//manifest.json",
+			"captca",
+			"’",
+			"php",
+			"animation",
+			"8em",
+			"img-circle",
+			"section",
+			"login",
+			"#login",
+			"llc_members_array",
+			"includes/navbar.php",
+			"include(\"/",
+			", ",
+			"(",
+			"}e",
+			"};",
+			"-",
+			"1",
+			"_",
+			"member_1",
+			"member-1",
+			"member_1",
+			"-",
+			"] => ",
+			"[",
+			"row2",
+			"sql2",
+			"\t\t\t\t  ",
+			"images",
+			"2",
+			"label",
+			"-1\"",
+			"r-1",
+			"-1\"",
+			"-1",
+			"col-sm-2 control-label",
+			"cols",
+			"-heading",
+			"list-group-item",
+			" pb-3",
+			"col-sm-12",
+			"5em",
+			"</a>",
+			"<a",
+			"desc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"AdminTeam@stewardship-llc.com",
+			"8f00f6",
+			"#4164ae",
+			"offset-md-1",
+			"STEWARD<strong>SHIP</strong>",
+			"268798940",
+			"rgba(65,100,175,0.8)",
+			"#4164ae",
+			"268640631",
+			".stewardship-llc.",
+			" ",
+			"color: #3e71cc;",
+			"background: rgba(65,100,175);",
+			"\"images/safari-pinned-tab.svg\"",
+			"<link rel=\"mask-icon\" href=\"/safari-pinned-tab.svg\" color=\"#9500ff\">\n<meta name=\"msapplication-TileColor\" content=\"#9500ff\">\n<meta name=\"theme-color\" content=\"#cccccc\">",
+			"268139210",
+			"stewardship-",
+			"articles/wp-load.php",
+			"Stewardship, LLC",
+			"stewardship_main",
+			"$busterOn = false;",
+			"e\"><span class=\"rev-logo-header\">ARROW OF <strong>VICTORY</strong></span>",
+			"col-12 hidden-lg",
+			"arrow_main",
+			"arrow_main_live",
+			"href=\"images/",
+			"/manifest.json",
+			"includes/navBar.php",
+			"include(\"",
+			"http://www.arrowofvictory.com/"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13472,
+								13472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1551.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "stewardship.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 348.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

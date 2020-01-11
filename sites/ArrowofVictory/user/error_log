@@ -1,0 +1,3 @@
+[05-Mar-2011 21:26:04] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'dresstoc_Query'@'localhost' (using password: YES) in /home2/dresstoc/public_html/sites/theride/includes/functions.php on line 29
+[05-Mar-2011 21:26:04] PHP Warning:  mysqli::stmt_init() [<a href='mysqli.stmt-init'>mysqli.stmt-init</a>]: Couldn't fetch mysqli in /home2/dresstoc/public_html/sites/theride/admin/index.php on line 17
+[05-Mar-2011 21:26:04] PHP Fatal error:  Call to a member function prepare() on a non-object in /home2/dresstoc/public_html/sites/theride/admin/index.php on line 18

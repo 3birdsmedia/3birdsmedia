@@ -1,0 +1,381 @@
+/*
+
+RevLove- light Orange - #FAB414 rgba(250,180,20,1)
+RevLove- dark Orange - #fa9b23 rgba(250,155,35,1)
+
+RevLove- light teal - #6ECDD7 rgba(110,205,215,1)
+RevLove- dark teal - #32becd rgba(50,190,205,1)
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+@keyframes kern{
+  0%{letter-spacing: 0px;opacity: 0;}
+  100%{letter-spacing: 0.5em;opacity: 1;}
+}
+@keyframes fadeIn{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes fadeOut{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+@keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	12.5% { visibility: visible; z-index: 100; }
+	25% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+}
+body {
+  background:#333 no-repeat scroll center top/cover ;
+  font-family: 'Montserrat', sans-serif;
+  color: #777777;
+  text-align: center;
+}
+.row{margin:0;}
+.img-responsive{width: auto;max-width: 100%;}
+.bg-inverse {
+  background-color: #333333;
+}
+#navbarCollapse{
+	width: 90%;
+}.navbar-toggler {
+  background: #777777;
+  border: 1px solid transparent;
+  border-radius: 0rem;
+ }
+.navbar-inverse .navbar-nav .nav-link{
+	text-transform: uppercase;
+	color:#FDFDFD;
+	transition: all 0.5s ease-in-out 0s;
+}
+.navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link:focus,
+.navbar-inverse .navbar-nav .nav-link.active{
+	text-transform: uppercase;
+	color:#FDFDFD;
+	background:#FAB414;
+
+}
+.navbar-inverse .navbar-nav .nav-link.active{
+	background:transparent;
+}
+
+.brand {
+    letter-spacing: 0.5em;
+    line-height: 0.2;
+    font-weight: 300;
+    margin-right: -0.6em;
+}
+
+
+.brand {
+	padding:0;
+}
+.brand .kov-logo-header{
+	font-size: 0;
+	width: 100%;
+	height: 40px;
+	display: block;
+	background: url(../images/kovenant-nav-logo.svg) no-repeat center center transparent;
+}
+
+.jumbotron{
+		padding:55px 0 0 0;
+		margin-bottom: 0;
+}
+
+.jumbotron .bx-wrapper{
+	background: #000;
+	border: 0px;
+	box-shadow: none;
+	margin-bottom: 0;
+}
+
+.icon-wrapper{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 1.6em;
+	opacity: 0.5;
+	transition: all ease-out 0.5s;
+	font-weight: 300;
+}
+
+.icon-wrapper:hover{
+	transition: all ease-in-out 0.5s;
+	opacity: 1;
+	text-decoration: none;
+	color: #fff;
+}
+.catalog .icon-wrapper {background: url('../images/action/catalog-action.jpg') no-repeat top center/100% auto #333;}
+.about .icon-wrapper {background: url('../images/action/about-action.jpg') no-repeat top center/100% auto #333;}
+.contact .icon-wrapper {background: url('../images/action/contact-action.jpg') no-repeat top center/100% auto #333;}
+
+.icon-wrapper .icon img{ 
+	width: 50%;
+	margin:20px 0;
+}
+
+.icon-wrapper .title{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2em;
+	font-family: 'Oswald', Arial Narrow, Arial, sans-serif;
+}
+.icon-wrapper .quote{
+	padding:1em;
+}
+
+
+#mission {
+	background: url(../images/verse.jpg) no-repeat center center/cover #000;
+}
+#mission h2 {
+	text-transform: uppercase;
+	color: #333333;
+	font-size: 4em;
+	font-weight: 300;
+	letter-spacing: 0.4em;
+		margin: 0;
+	padding: 1em 2em 2em 1em;
+	text-align: left;
+}
+#mission .mission-quote{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 1.5em;
+	line-height: 0.8;
+	letter-spacing: 0.1em;
+	margin: 0;
+	padding: 1em 0em 0.5em 0em;
+	text-align: center;
+	width: 70%;
+	left: 15%;
+	position: relative;
+}
+#mission .mission-quote strong{
+	color: #fff;
+}
+
+#header{
+	width: 100%;
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #000;
+	margin:55px 0 0 0;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 2;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+#header h1{font-size: 3em;line-height: 2;margin:0;}
+
+
+.catalog-header {background-image: url(../images/headers/catalog.jpg);}
+.about-header {background-image: url(../images/headers/about.jpg);}
+.blog-header {background-image: url(../images/headers/blog.jpg);}
+.contact-header {background-image: url(../images/headers/contact.jpg);}
+
+.catalog-front h2{ 
+	text-transform: uppercase;
+	color: #ffca05;
+	font-size: 4em;
+	border-top: 1px solid #ffca05;
+	width: 100%;
+	padding: 30px 0; 
+}
+
+.catalog-front img{
+	width: 100%;
+	margin-bottom:15px;
+}
+.hs-wrapper {
+	position: relative;
+	width: 100%;
+}
+.hs-wrapper img{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	animation: showMe 4s linear infinite 0s forwards;
+	animation-play-state: paused;	
+}.hs-wrapper:hover img{
+	animation-play-state: running;
+}.hs-wrapper img:nth-child(1){
+	z-index: 9;
+}
+.hs-wrapper img:nth-child(2){
+	animation-delay: 0.5s;
+	z-index: 8;
+}
+.hs-wrapper img:nth-child(3){
+	animation-delay: 1.5s;
+	z-index: 7;
+}
+.hs-wrapper img:nth-child(4){
+	animation-delay: 2s;
+	z-index: 6;
+}
+
+.hs-wrapper img:nth-child(5){
+	animation-delay: 2.5s;
+	z-index: 6;
+}
+.hs-wrapper img:nth-child(6){
+	animation-delay: 3s;
+	z-index: 6;
+}
+.hs-wrapper img:nth-child(7){
+	animation-delay: 3.5s;
+	z-index: 6;
+}
+
+.content {
+	font-size: 2em;
+	color: #f2f2f2;
+
+}
+
+
+input, textarea{
+	width: 100%;
+	height: 46px;
+	padding: 10px 15px;
+	border: 1px solid #b0b6bb;
+	background-color: #ffffff;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	color: #323232;
+	display: inline-block;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+textarea{
+	margin-top: 10px;
+	height: 100px;
+}
+[type=submit]{
+	background-color: #ffca05;
+	border: 1px solid #ffca05;
+	color: #4d4d4d;
+}
+[type=submit]:hover{
+	background-color: #ffd538;
+	border: 1px solid #ffd538;
+}
+
+.contact-form{
+	margin-bottom: 20px;
+}
+.content h2{
+	font-family: 'Oswald', Arial Narrow, sans-serif;
+	font-size: 2.5em;
+}
+
+section#footer{padding: 2em 0px;}
+section#footer .family{
+	background: url('../images/family.svg') no-repeat center center/contain transparent;
+	position: relative;
+	width: 100%;
+	height: 50px;
+
+	text-transform: uppercase;
+	color: #fff;
+	z-index: 5000;
+	font-weight: normal;
+	text-align: center;
+}
+
+section#footer .family h2{
+	font-size: 0px;
+}
+section .kovenant		{background: url('../images/logo_Kovenant.svg') no-repeat center center/contain #101010;}
+section .stewardship	{background: url('../images/logo_Stewardship.svg') no-repeat center center/contain #101010;}
+section .revolution		{background: url('../images/logo_Revolution.svg') no-repeat center center/contain #101010;}
+section .firmfoundation	{background: url('../images/logo_FirmFoundation.svg') no-repeat center center/contain #101010;}
+section .arrowofvictory	{background: url('../images/logo_ArrowOfVictory.svg') no-repeat center center/contain #101010;}
+section .revlove		{background: url('../images/logo_RevLove.svg') no-repeat center center/contain #101010;}
+section .apokaradokia	{background: url('../images/logo_Apokaradokia.svg') no-repeat center center/contain #101010;}
+section#footer{
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background: #101010;
+	z-index: 50000;
+}
+
+section#footer .box{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
+	font-size: 0px;
+}
+section#footer .box a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+}
+
+
+@media (min-width:576px) {
+
+#header h1{font-size: 7em;line-height: 2;margin:0;}
+
+.brand {
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    line-height: 0.2;
+    font-weight: 300;
+    margin-right: -0.6em;
+}
+#mission .mission-quote{
+	font-size: 4em;
+}
+body {
+  background:#333333;
+ }
+#resources h2 {
+	  color: #f2f2f2;
+	  font-size: 3.3em;
+	  font-weight: 300;
+	  letter-spacing: 0.4em;
+	}
+}
+@media (min-width:992px) {
+
+	#navbarCollapse{
+		width: 100%;
+	}
+	.overlay {
+		background:url('../images/kovenant-logo.svg') no-repeat center center/80% 80% transparent;
+	}
+	.overlay h1{
+	    font-size: 120px;
+	}
+	#services .blurb{
+		font-size:1.8em;
+		color:#fff;
+		padding: 2em;
+		font-weight: 300;
+	}
+}

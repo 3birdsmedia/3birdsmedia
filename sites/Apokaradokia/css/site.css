@@ -1,0 +1,571 @@
+/*
+
+RevLove- light Orange - #FAB414 rgba(250,180,20,1)
+RevLove- dark Orange - #fa9b23 rgba(250,155,35,1)
+
+RevLove- light teal - #6ECDD7 rgba(110,205,215,1)
+RevLove- dark teal - #32becd rgba(50,190,205,1)
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100, 100i,300,300i,400,400i,700,700i,900,900i');
+@keyframes kern{
+  0%{letter-spacing: 0px;opacity: 0;}
+  100%{letter-spacing: 0.5em;opacity: 1;}
+}
+@keyframes fadeIn{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes fadeOut{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+@keyframes toTop{
+	0%{margin-top: 0;}
+	100%{margin-top: -305px;}
+}
+@keyframes toLeft{
+	0%{margin-top: 0;}
+	100%{margin-left: -305px;}
+}
+@keyframes toRight{
+	0%{margin-left: 0;}
+	100%{margin-left: 305px;}
+}
+@keyframes Down{
+	0%{margin-top: 0;}
+	100%{margin-top: 305px;}
+}
+@keyframes DownTwo{
+	0%{margin-top: 0;}
+	100%{margin-top: 610px;}
+}
+
+@keyframes blink{
+	0%  {color: #7752A0;bottom:0px;}
+	15% {color: #4164AE;bottom:10px;}
+	35% {color: #34BFCB;bottom:0px;}
+	50% {color: #6DBD45;bottom:10px;}
+	65% {color: #FFCB04;bottom:0px;}
+	80% {color: #F79923;bottom:10px;}
+	95% {color: #EB223B;bottom:0px;}
+	100%{color: #000000;bottom:10px;}
+}
+
+@keyframes grow{
+	100%{width: 150px; height: 150px;font-size: 70px;}
+}
+
+
+body {
+  background:#000000 url("../images/bg.jpg") no-repeat scroll center top/cover ;
+  background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
+  color: #777777;
+  text-align: center;
+}
+.row{margin:0;}
+.img-responsive{width: auto;max-width: 100%;}
+.bg-inverse {
+  background-color: #fa9b23;
+}
+#navbarCollapse{
+	width: 90%;
+}.navbar-toggler {
+  background: #777777;
+  border: 1px solid transparent;
+  border-radius: 0rem;
+ }
+.navbar-inverse .navbar-nav .nav-link{
+	text-transform: uppercase;
+	color:#FDFDFD;
+	transition: all 0.5s ease-in-out 0s;
+}
+.navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link:focus,
+.navbar-inverse .navbar-nav .nav-link.active{
+	text-transform: uppercase;
+	color:#FDFDFD;
+	background:#FAB414;
+
+}
+.navbar-inverse .navbar-nav .nav-link.active{
+	background:transparent;
+}
+
+.brand {;
+    letter-spacing: 0.5em;
+    line-height: 0.2;
+    font-weight: 300;
+    margin-right: -0.6em;
+}
+
+
+.brand .rev-logo-header{
+	font-size: 0;
+	width: 100%;
+	height: 40px;
+	display: block;
+	background: url(../images/apokaradokia-logo.svg) no-repeat center center transparent;
+}
+.embed-responsive{position: absolute;}
+.overlay {
+	position: relative;
+
+	top: 0;
+	left: 0;
+	background:url('../images/apokaradokia-logo.svg') no-repeat center center/80% 80% transparent;
+	width: 100%;
+	min-height:  250px;
+	z-index: 40000;
+}
+.overlay h1{
+    margin-top: 260px;
+    font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow:0px 2px 2px rgba(0,0,0,0.5);
+	animation: kern 5s ease-out forwards;
+  	animation-delay: 2s;
+}
+
+section#intro{
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background: #101010;
+	z-index: 50000;
+}
+section#intro .family{
+	background: url('../images/family.svg') no-repeat center center/contain transparent;
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	height: 50px;
+	
+	text-transform: uppercase;
+	color: #fff;
+	z-index: 5000;
+	font-weight: normal;
+	text-align: center;
+}
+
+section#intro .family h1{
+	font-size: 0px;
+}
+section#intro .box{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	display: none;
+	margin: auto;
+	padding: 10px;
+	font-size: 0px;
+}
+section#intro .box a{
+	width: 100%;
+	height: 100%;
+
+	width: calc(100% - 20px);
+    height: calc(100% - 20px);
+	
+	display: block;
+	position: absolute;
+}
+
+section .kovenant		{background: url('../images/logo_Kovenant.svg') no-repeat center center/contain #101010;}
+section .stewardship	{background: url('../images/logo_Stewardship.svg') no-repeat center center/contain #101010;}
+section .revolution		{background: url('../images/logo_Revolution.svg') no-repeat center center/contain #101010;}
+section .firmfoundation	{background: url('../images/logo_FirmFoundation.svg') no-repeat center center/contain #101010;}
+section .arrowofvictory	{background: url('../images/logo_ArrowOfVictory.svg') no-repeat center center/contain #101010;}
+section .revlove		{background: url('../images/logo_RevLove.svg') no-repeat center center/contain #101010;}
+section .apokaradokia	{background: url('../images/logo_Apokaradokia.svg') no-repeat center center/contain #101010;}
+
+section#intro .scrollDown { 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+
+	background: -moz-linear-gradient(-45deg,  rgba(235,35,60,0) 0%, rgba(235,35,60,0) 50%, rgba(235,35,60,1) 51%, rgba(235,35,60,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(235,35,60,0) 0%,rgba(235,35,60,0) 50%,rgba(235,35,60,1) 51%,rgba(235,35,60,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(235,35,60,0) 0%,rgba(235,35,60,0) 50%,rgba(235,35,60,1) 51%,rgba(235,35,60,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+section#intro .blink { 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	animation: grow 2s ease forwards;
+
+}
+section#intro .scrollDown i{
+	position: absolute;
+	font-size: 1em;
+	color: #101010;
+	bottom: 0;
+	right: 20px;
+} 
+
+
+section#intro .blink i{
+	animation: blink 7s ease infinite;
+}
+
+
+
+/*
+section#intro .box .inner{
+	width: 100%;
+	height: 100px;
+	background: #fff000;
+	display: block;
+}
+section#intro .kovenant			{z-index: 1;
+								 animation: fadeIn 1.5s ease-out 1.5s 1 forwards;}
+section#intro .stewardship		{z-index: 2;
+								 animation: fadeIn 1.5s ease-out 3s 1 forwards,
+								  			DownTwo 1.5s ease-out 10.6s 1 forwards;}
+section#intro .revolution		{z-index: 3;
+								 animation: fadeIn 1.5s ease-out 4.5s 1 forwards,
+								  			Down 0.75s ease-out 10.6s 1 forwards;}
+section#intro .firmfoundation	{z-index: 4;
+								 animation: fadeIn 1.5s ease-out 6s 1 forwards,
+								  			toRight 1.5s ease-out 10.4s 1 forwards;}
+section#intro .arrowofvictory	{z-index: 5;
+								 animation: fadeIn 1.5s ease-out 7.5s 1 forwards,
+								  			toLeft 1.5s ease-out 10.2s 1 forwards;}
+section#intro .revlove			{z-index: 6;
+								 animation: fadeIn 1.5s ease-out 9s 1 forwards,
+											toTop  1.5s ease-in-out 10s forwards;}*/
+
+
+/*section#intro .box.arrowofvictorysection#intro .box.arrowofvictory,
+section#intro .box.firmfoundation,
+section#intro .box.kovenant{
+display: inline-block;
+}*/
+
+.video-bg {position: fixed;}
+section{background: rgba(0,0,0,0.3);position: relative;}
+section#etymology{
+	background:#333;
+	font-size: 1.2rem;
+	font-weight: 100;
+	padding: 1.5em 0; 
+	color: #EEA50A;
+}
+section#bible{
+	background: #030303 url(../images/bible.jpg) no-repeat center bottom / cover;
+	color:#fff;
+	font-size: 1rem;
+	font-weight: 100;
+	padding: 1em 0;
+}
+
+section#etymology h2,
+section#bible h2{
+	color:#E2083D;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+#mission h2 {
+	text-transform: uppercase;
+	color: #f2f2f2;
+	font-size: 4em;
+	font-weight: 300;
+	letter-spacing: 0.4em;
+		margin: 0;
+	padding: 1em 2em 2em 1em;
+	text-align: left;
+}
+#mission .mission-quote{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 1.5em;
+	line-height: 0.8;
+	letter-spacing: 0.1em;
+	margin: 0;
+	padding: 1em 0em 0.1em 0em;
+	text-align: center;
+	width: 100%;
+	left: 0%;
+	position: relative;
+}
+
+#about{
+	background: #32becd;
+}
+.about-wrap {
+	overflow: hidden;
+	background: url(../images/about.jpg) no-repeat top right/cover #32becd;
+
+}
+#about h2 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 3.5em;
+	font-weight: 300;
+	letter-spacing: 0.2em;
+		margin: 0;
+	padding: 3.5em 0em 3.5em 0em;
+	text-align: center;
+}
+#about h2 .rev-logo-inline{
+	font-size: 0;
+	width: 100%;
+	height: 50px;
+	display: block;
+	background: url(../images/apokaradokia-logo.svg) no-repeat center top transparent;
+}
+#about .about-quote{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	position: relative;
+}
+#services {
+	background: url(../images/services.jpg) no-repeat top center/cover #f2f2f2;
+}
+#services h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 0.35em;
+  margin: 0.5em auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#services .serv-icon::before {
+	content: " ";
+	width: 200px;
+	height: 200px;
+	background: rgba(255,255,255,0.8);
+	margin: 0;
+	top: 55px;
+	left: 50%;
+	margin-left: -100px;
+	border-radius: 200px;
+	position: absolute;
+}#services .serv-icon::after {
+	content: " ";
+	width: 180px;
+	height: 180px;
+	background: rgba(110,205,215,1);
+	margin: 0;
+	top: 65px;
+	left: 50%;
+	margin-left: -90px;
+	border-radius: 180px;
+	position: absolute;
+}
+
+#services .slick-center .serv-icon::before {
+	content: " ";
+	width: 230px;
+	height: 230px;
+
+	top: 40px;
+	left: 50%;
+	margin-left: -115px;
+}#services .slick-center .serv-icon::after {
+	content: " ";
+	width: 220px;
+	height: 220px;
+	top: 45px;
+	left: 50%;
+	margin-left: -110px;
+}
+
+
+#services .serv-icon{
+	width: 100%;
+	height: 330px;
+	color: #ffffff;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.serv-icon i, .serv-icon img {
+	top: 130px;
+	position: relative;
+	display: inline-block;
+	z-index: 100;
+	font-size: 3em;
+	width: 60px;
+	height: 60px;
+}
+#services h3{
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color:#fff;
+}
+
+#services .blurb{
+	font-size:1em;
+	color:#fff;
+	padding: 2em;
+}
+
+#tribe .blurb {
+  border-right: 1px solid #fa9b23;
+  font-weight: 300;
+  margin: 2em auto;
+  text-transform: uppercase;
+  padding: 6em 4em;
+}#tribe img {
+  padding: 2em 0;
+}
+
+#resources {
+	background: url(../images/resources.jpg) no-repeat top center/cover #fa9b23;
+	padding: 1em 0 2em;
+}
+#resources h2 {
+  color: #f2f2f2;
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: 0.35em;
+  margin: 0.5em auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#resources .view-more {
+  color: #31c0cc;
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin: 0.5em auto;
+  text-align: center;
+  text-transform: lowercase;
+  padding-bottom: 1em;
+}
+
+#footer{background:#333;}
+#footer h4{
+	display: inline-block;
+	width: 100%;
+	height: 360px;
+	text-align: center;
+	padding: 2em 0;
+	background: url(../images/revlovelogo-footer.svg) no-repeat center center transparent;
+	font-size: 0;
+
+}
+
+
+section#footer{
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background: #101010;
+	z-index: 50000;
+}
+section#footer h2.family{
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 50%;
+	text-transform: uppercase;
+	color: #fff;
+	z-index: 5000;
+	font-weight: normal;
+	text-align: left;
+}
+
+section#footer .box{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
+	font-size: 0px;
+}
+section#footer .box a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+}
+
+@media (min-width:576px) {
+
+.brand {
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    line-height: 0.2;
+    font-weight: 300;
+    margin-right: -0.6em;
+}
+#mission .mission-quote{
+	font-size: 3em;
+	letter-spacing: 0.3em;
+	padding: 1em 0em 0.5em 0em;
+	width: 70%;
+	left: 15%;
+}
+
+body {
+  background:#000000 url("../images/bg.jpg") no-repeat scroll center / cover ;
+  background-attachment: fixed;
+ }
+#resources h2 {
+	  color: #f2f2f2;
+	  font-size: 3.3em;
+	  font-weight: 300;
+	  letter-spacing: 0.4em;
+	}
+
+section#etymology{
+	font-size: 1.8rem;
+}
+section#bible{
+	font-size: 1.5rem;
+}
+
+section#etymology h2,
+section#bible h2{	
+	font-size: 2em;
+}
+
+}
+
+
+
+@media (min-width:992px) {
+	
+	body {
+	  background:#000000 url("../images/lg-bg.jpg") no-repeat scroll center / cover ;
+	  background-attachment: fixed;
+	 }
+
+	#navbarCollapse{
+		width: 100%;
+	}
+	.overlay {
+		background:url('../images/apokaradokia-logo.svg') no-repeat center center/80% 80% transparent;
+	}
+	.overlay h1{
+	    font-size: 120px;
+	}
+	#services .blurb{
+		font-size:1.8em;
+		color:#fff;
+		padding: 2em;
+		font-weight: 300;
+	}
+}

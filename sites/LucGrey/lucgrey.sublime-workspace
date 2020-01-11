@@ -1,0 +1,970 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fow",
+				"forwards"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"fa",
+				"fadeout"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"sift",
+				"siftapi"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"su",
+				"subscribers"
+			],
+			[
+				"col",
+				"columnkey"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"user",
+				"useractive"
+			],
+			[
+				"sa",
+				"savedPwd"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"subs",
+				"subscribe"
+			],
+			[
+				"Pass",
+				"Passwords"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"err",
+				"errMsg"
+			],
+			[
+				"has",
+				"hasError"
+			],
+			[
+				"password",
+				"password_confirm"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"bar",
+				"background-repeat"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"togg",
+				"toggle_hide"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"el",
+				"elID"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"foot",
+				"foot-logo"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"lato-bold",
+				"lato-bolditalic-webfont"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"her",
+				"hero-img"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"prop",
+				"proposal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 11800,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/site.css",
+			"settings":
+			{
+				"buffer_size": 5822,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "McMaster\nTraining Flyers 1hr\n\nLucGrey \nAdmin/Project Lists/Emails 1hr\n\nMee\nQ&A Flyer 1.75 hrs\nBOM Flyer 1.75 hrs\n\nGregory\nMommy-n-Me Tea 2 hr\n\nSchneider\nWrestler Fit 3.5 hrs\n\nO’Brien\nSS Team Bowl .5 hr",
+			"settings":
+			{
+				"buffer_size": 201,
+				"line_ending": "Windows",
+				"name": "McMaster"
+			}
+		},
+		{
+			"contents": "24 MONTH LEASE OPTIONS",
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Windows",
+				"name": "24 MONTH LEASE OPTIONS"
+			}
+		},
+		{
+			"file": "/C/wamp/www/jenniferevans/contact.php",
+			"settings":
+			{
+				"buffer_size": 7849,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/index.html",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/slick/slick.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/www/Kovenant/index.php",
+			"settings":
+			{
+				"buffer_size": 9511,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/RevLove/index.php",
+			"settings":
+			{
+				"buffer_size": 17070,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/RevLove/resources.php",
+			"settings":
+			{
+				"buffer_size": 13452,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/Kovenant/css/site.css",
+			"settings":
+			{
+				"buffer_size": 6184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "PHILIPPIANS 1:20",
+			"settings":
+			{
+				"buffer_size": 16,
+				"line_ending": "Windows",
+				"name": "PHILIPPIANS 1:20"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/LucGrey/index.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/styles.css",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/about.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/updateAbout.php",
+		"/C/DEV/WeeklyGlamour/Bin/System.Net.Http.Formatting.dll.refresh",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/updateHomeHero.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/slide_image_delete.php",
+		"/C/wamp/www/jru/admin/updateProjects.php",
+		"/C/DEV/Leadid_api2/packages/Antlr.3.5.0.2/Antlr.3.5.0.2.nupkg",
+		"/C/DEV/Leadid_api2/LeadiD API/bin/Antlr3.Runtime.pdb",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.AspNet.SignalR.JS.2.2.1/Microsoft.AspNet.SignalR.JS.2.2.1.nupkg",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll.refresh",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.AspNet.SignalR.Core.dll.refresh",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.AspNet.Web.Optimization.WebForms.dll.refresh",
+		"/C/wamp/www/crazeFitCardioClub/index.php",
+		"/C/wamp/www/crazeFitCardioClub/css/styles.css",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/proj_image_delete.php",
+		"/C/wamp/www/crazeFitCardioClub/subscriptions/welcome.php",
+		"/C/wamp/www/crazeFitCardioClub/subscriptions/monthly.php",
+		"/C/wamp/www/crazeFitCardioClub/register.php",
+		"/C/Users/xadmin/Documents/Visual Studio 2013/Projects/samplesandrebates-local/samplesandrebates-local.sln",
+		"/C/wamp/www/crazeFitCardioClub/includes/functions.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/index.php",
+		"/C/wamp/www/jru/admin/index.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/subscriptions.php",
+		"/C/wamp/www/jru/includes/functions.php",
+		"/C/wamp/www/jru/portfolio.php",
+		"/C/wamp/www/crazeFitCardioClub/subscribe.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/manage_users.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/logout.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/admin.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/adminfooterNav.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/adminfooter.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/navBar.php",
+		"/C/wamp/www/crazeFitCardioClub/regimens.php",
+		"/C/wamp/www/crazeFitCardioClub/css/bootstrap.css",
+		"/D/3bm/LEAD ID/Ad-Monster/web/index.html",
+		"/D/3bm/LEAD ID/Ad-Monster/web/css/styles.css",
+		"/C/wamp/www/crazefitCardio/about.php",
+		"/D/3bm/LEAD ID/Ad-Monster/web/css/bootstrap.css",
+		"/D/3bm/LEAD ID/Ad-Monster/web/starter-template.css",
+		"/C/wamp/www/traceSandbox/app/Controller/AppController.php",
+		"/C/wamp/www/traceSandbox/app/View/Layouts/default.ctp",
+		"/C/wamp/www/traceSandbox/app/Plugin/DebugKit/composer.json",
+		"/C/wamp/www/traceSandbox/app/Model/Post.php",
+		"/D/3bm/LEAD ID/MidPath/Web/survey_template.html",
+		"/D/3bm/LEAD ID/MidPath/Web/js/jquery.flexslider.js",
+		"/D/3bm/LEAD ID/MidPath/Web/adjector.html",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap-theme.min.css",
+		"/D/3bm/LEAD ID/MidPath/Web/css/styles.css",
+		"/D/3bm/LEAD ID/MidPath/Web/stacked.html",
+		"/D/3bm/LEAD ID/MidPath/Web/img/Skin_plus_StackedAds_03.png",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap.min.css",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap.css",
+		"/C/wamp/www/Daphne_Web/css/style.css",
+		"/C/wamp/www/Daphne_Web/bootstrap/css/bootstrap-docs.css",
+		"/C/wamp/www/Daphne_Web/index.html",
+		"/C/wamp/www/Daphne_Web/css/flat-ui.css",
+		"/C/wamp/www/Daphne_Web/bootstrap/css/bootstrap.css",
+		"/C/wamp/www/Daphne_Web/index2.htm",
+		"/C/wamp/www/Daphne_Web/README.md",
+		"/C/wamp/www/Daphne_Web/css/docs.css",
+		"/C/wamp/www/Daphne_Web/css/demo.css",
+		"/C/wamp/www/Daphne_Web/less/variables.less",
+		"/C/wamp/www/The Seguras/includes/navBar.php",
+		"/C/wamp/www/j&lwedding_website/includes/navbar.php",
+		"/C/wamp/www/marcoseguraPort/includes/navBar.php"
+	],
+	"find":
+	{
+		"height": 99.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\DEV\\mpe-solution",
+			"C:\\wamp\\www\\Daphne_Web",
+			"C:\\wamp\\www\\j&lwedding_website"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Gina Nelson",
+			"gina-nelson-logo.svg",
+			"slickGoTo",
+			"customPaging",
+			"\n	opacity: 0;",
+			"Loading",
+			"\n  ",
+			"\n    ",
+			".5",
+			".5s",
+			"countdown",
+			"href=\"/",
+			"href=\"",
+			"./index.php_files/",
+			".download",
+			"admin",
+			"proj",
+			"updateProjects",
+			"../images/",
+			"project_image_lookup",
+			"../includes",
+			"folder",
+			"project_image_lookup",
+			"project",
+			"Project",
+			"project",
+			"proj_id",
+			"\"><",
+			"..\\..\\WebSites\\samplesandrebates-local\\",
+			"td",
+			"  \n\n",
+			"insert",
+			"$row",
+			"echo",
+			"authenticated",
+			"li",
+			"/PrivacyPolicy",
+			"$errMsg ",
+			"button",
+			"aboutBody",
+			", $_POST[",
+			"aboutHeader",
+			"aboutText",
+			"name",
+			"comments",
+			"fname",
+			"emailAdress",
+			"passwordErr",
+			"fname",
+			"h2",
+			"col-lg-3",
+			"http://lorempixel.com/output/sports-q-g-285-205-8.jpg",
+			"circle",
+			"\" title=",
+			"images/socialicons.png",
+			"clearafter",
+			"md",
+			"n a{",
+			"e=\"\"",
+			"class=\"",
+			"</h2>",
+			"h2>",
+			"><span",
+			"><",
+			"../../dist/",
+			"1",
+			"debug",
+			"previous",
+			"walmart",
+			"1170px",
+			"1170",
+			".container",
+			"20px",
+			"col-sm-2",
+			"’",
+			"Her Gallery",
+			"hergallery",
+			"Her Gallery",
+			"col-sm-4",
+			"Gallerie",
+			"/gallery",
+			"gallery",
+			"images/",
+			"4",
+			"Man getting wet",
+			"target=\"blank\"",
+			"https://vimeo",
+			"\"><",
+			"20px",
+			"20",
+			"@font-face",
+			"italic",
+			"bolditalic",
+			"black",
+			"bold",
+			"regular",
+			"—",
+			"“",
+			"”",
+			"’",
+			"container",
+			"/*!",
+			",\n",
+			"container",
+			"1abc9c",
+			"@font-face",
+			"navbar-brand",
+			"target=\"\"",
+			": ",
+			"col-xs-6 ",
+			"h5",
+			"H4",
+			"xsm",
+			"LG-4",
+			"lg-3",
+			"h2",
+			"\"party/",
+			"**",
+			"(/includes/navbar.php)",
+			"<div class=\"navbar-wrapper\">\n        <div class=\"navbar navbar-inverse navbar-static-top\">\n          <div class=\"container\">\n            <div class=\"navbar-header\">\n              <button data-target=\".navbar-collapse\" data-toggle=\"collapse\" class=\"navbar-toggle\" type=\"button\">\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n                <span class=\"icon-bar\"></span>\n              </button>\n            </div>\n            <div class=\"navbar-collapse collapse\">\n                    <ul class=\"nav navbar-nav row\">\n                      <li class=\"active col-sm-2\"><a href=\"index.php\">THE COUPLE</a></li>\n                      <li class=\"col-sm-2\"><a href=\"proposal.php\">PROPOSAL</a></li>\n                      <li class=\"col-sm-1\"><a href=\"rsvp.php\">RSVP</a></li>\n                      <li class=\"col-sm-2\"><a href=\"details.php\">WEDDING DETAILS</a></li>\n                      <li class=\"col-sm-2\"><a href=\"party.php\">WEDDING Party</a></li>\n                      <li class=\"col-sm-2\"><a href=\"registry.php\">Registry</a></li>\n                      <li class=\"col-sm-1\"><a href=\"vendors.php\">VENDORS</a></li>\n                    </ul>\n            </div>\n          </div>\n        </div>\n\n    </div>",
+			".html"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"//player.vimeo",
+			"-",
+			"\"",
+			"'",
+			"6D0081",
+			"target=\"_blank\"",
+			"\"images/party/",
+			"<span class=\"alert alert-info\">**</span>",
+			"('/includes/navbar.php');",
+			"<?php \n include(/includes/navbar.php);\n?>\n('includes/navbar.php')",
+			"<?php \n include(/includes/navbar.php);\n?>\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 11800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7821,
+								7715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1454.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/site.css",
+					"settings":
+					{
+						"buffer_size": 5822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								195
+							]
+						],
+						"settings":
+						{
+							"auto_name": "McMaster",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								22
+							]
+						],
+						"settings":
+						{
+							"auto_name": "24 MONTH LEASE OPTIONS",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/wamp/www/jenniferevans/contact.php",
+					"settings":
+					{
+						"buffer_size": 7849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2627.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/slick/slick.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1995.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/wamp/www/Kovenant/index.php",
+					"settings":
+					{
+						"buffer_size": 9511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2117,
+								2117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/wamp/www/RevLove/index.php",
+					"settings":
+					{
+						"buffer_size": 17070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10705,
+								10705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/wamp/www/RevLove/resources.php",
+					"settings":
+					{
+						"buffer_size": 13452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7096,
+								7096
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1881.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/wamp/www/Kovenant/css/site.css",
+					"settings":
+					{
+						"buffer_size": 6184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								16
+							]
+						],
+						"settings":
+						{
+							"auto_name": "PHILIPPIANS 1:20",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 348.0,
+	"status_bar_visible": true
+}

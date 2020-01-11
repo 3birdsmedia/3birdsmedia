@@ -1,0 +1,408 @@
+/*
+
+RevLove- light Orange - #FAB414 rgba(250,180,20,1)
+RevLove- dark Orange - #fa9b23 rgba(250,155,35,1)
+
+RevLove- light teal - #6ECDD7 rgba(110,205,215,1)
+RevLove- dark teal - #32becd rgba(50,190,205,1)
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i,900,900i');
+@keyframes kern{
+  0%{letter-spacing: 0px;opacity: 0;}
+  100%{letter-spacing: 0.5em;opacity: 1;}
+}
+@keyframes fadeIn{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes fadeOut{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+body {
+  background:#fdfdfd url("../images/bg.jpg") no-repeat scroll center -50px / 150% ;
+  font-family: 'Montserrat', sans-serif;
+  color: #777777;
+  text-align: center;
+}
+.row{margin:0;}
+.img-responsive{width: auto;max-width: 100%;}
+.bg-inverse {
+  background-color: #fa9b23;
+}
+#navbarCollapse{
+	width: 90%;
+}.navbar-toggler {
+  background: #777777;
+  border: 1px solid transparent;
+  border-radius: 0rem;
+ }
+.navbar-inverse .navbar-nav .nav-link{
+	text-transform: uppercase;
+	color:#FDFDFD;
+	transition: all 0.5s ease-in-out 0s;
+}
+.navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link:focus,
+.navbar-inverse .navbar-nav .nav-link.active{
+	text-transform: uppercase;
+	color:#FDFDFD;
+	background:#FAB414;
+
+}
+.navbar-inverse .navbar-nav .nav-link.active{
+	background:transparent;
+}
+
+.brand {;
+    letter-spacing: 0.5em;
+    line-height: 0.2;
+    font-weight: 300;
+    margin-right: -0.6em;
+}
+
+
+.brand .rev-logo-header{
+	font-size: 0;
+	width: 100%;
+	height: 40px;
+	display: block;
+	background: url(../images/revlove-header-logo.svg) no-repeat center center transparent;
+}
+.embed-responsive{position: absolute;}
+.overlay {
+	position: relative;
+
+	top: 0;
+	left: 0;
+	background:url('../images/RL_logo.png') no-repeat center center/100% transparent;
+	width: 100%;
+	min-height:  250px;
+}
+.overlay h1{
+    margin-top: 260px;
+    font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow:0px 2px 2px rgba(0,0,0,0.5);
+	animation: kern 5s ease-out forwards;
+  	animation-delay: 2s;
+}
+
+section{background: #f2f2f2;position: relative;}
+.mission-wrap {
+	overflow: hidden;
+	background: url(../images/mission.jpg) no-repeat top right/cover transparent;
+
+}
+#mission h2 {
+	text-transform: uppercase;
+	color: #f2f2f2;
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: 0.4em;
+		margin: 0;
+	padding: 1em 2em 2em 1em;
+	text-align: left;
+}
+#mission .mission-quote{
+	text-transform: uppercase;
+	color: #fa9b23;
+	font-size: 2.4em;
+	font-weight: 500;
+	letter-spacing: 0.3em;
+	margin: 0;
+	padding: 3em 0em 2em 0em;
+	text-align: center;
+	width: 70%;
+	left: 15%;
+	position: relative;
+}
+/*
+#mission .mission-quote::before {
+  color: #32becd;
+  content: "\201C";
+  font-family: georgia,serif;
+  font-size: 4em;
+  left: -50px;
+  line-height: 0;
+  padding: 0;
+  position: absolute;
+  top: 55%;
+}#mission .mission-quote::after {
+  color: #32becd;
+  content: "\201D";
+  font-family: georgia,serif;
+  font-size: 4em;
+  right: -50px;
+  line-height: 0;
+  padding: 0;
+  position: absolute;
+  top: 55%;
+}*/
+#mission .verse{
+	font-size: 2em;
+	font-weight: 300;
+	letter-spacing: 0.15em;
+	margin: 0;
+	text-align: right;
+	width: 100%;
+	position: relative;
+	padding-bottom: 1em;
+}
+
+
+#about{
+	background: #32becd;
+}
+.about-wrap {
+	overflow: hidden;
+	background: url(../images/about.jpg) no-repeat top right/cover #32becd;
+
+}
+#about h2 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 3.5em;
+	font-weight: 300;
+	letter-spacing: 0.2em;
+		margin: 0;
+	padding: 3.5em 0em 3.5em 0em;
+	text-align: center;
+}
+#about h2 .rev-logo-inline{
+	font-size: 0;
+	width: 100%;
+	height: 50px;
+	display: block;
+	background: url(../images/revlove-res-logo.svg) no-repeat center top transparent;
+}
+#about .about-quote{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	position: relative;
+}
+#services {
+	background: url(../images/services.jpg) no-repeat top center/cover #f2f2f2;
+}
+#services h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 0.35em;
+  margin: 0.5em auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#services .serv-icon::before {
+	content: " ";
+	width: 200px;
+	height: 200px;
+	background: rgba(255,255,255,0.8);
+	margin: 0;
+	top: 55px;
+	left: 50%;
+	margin-left: -100px;
+	border-radius: 200px;
+	position: absolute;
+}#services .serv-icon::after {
+	content: " ";
+	width: 180px;
+	height: 180px;
+	background: rgba(110,205,215,1);
+	margin: 0;
+	top: 65px;
+	left: 50%;
+	margin-left: -90px;
+	border-radius: 180px;
+	position: absolute;
+}
+
+#services .slick-center .serv-icon::before {
+	content: " ";
+	width: 230px;
+	height: 230px;
+
+	top: 40px;
+	left: 50%;
+	margin-left: -115px;
+}#services .slick-center .serv-icon::after {
+	content: " ";
+	width: 220px;
+	height: 220px;
+	top: 45px;
+	left: 50%;
+	margin-left: -110px;
+}
+
+
+#services .serv-icon{
+	width: 100%;
+	height: 330px;
+	color: #ffffff;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.serv-icon i, .serv-icon img {
+	top: 130px;
+	position: relative;
+	display: inline-block;
+	z-index: 100;
+	font-size: 3em;
+	width: 60px;
+	height: 60px;
+}
+#services h3{
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color:#fff;
+}
+#services h3 a{
+	color:#fff;
+}
+#services h3 a:hover,
+#services h3 a:active,
+#services h3 a:focused{
+	color:#6ecdd7;
+}
+
+#services .blurb{
+	font-size:1em;
+	color:#fff;
+	padding: 2em;
+}
+
+#tribe .blurb {
+  border-right: 1px solid #fa9b23;
+  font-weight: 300;
+  margin: 2em auto;
+  text-transform: uppercase;
+  padding: 6em 4em;
+}#tribe img {
+  padding: 2em 0;
+}
+
+#resources {
+	background: url(../images/resources.jpg) no-repeat top center/cover #fa9b23;
+	padding: 1em 0 2em;
+}
+#resources h2 {
+  color: #f2f2f2;
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: 0.35em;
+  margin: 0.5em auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+#resources .view-more {
+  color: #31c0cc;
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin: 0.5em auto;
+  text-align: center;
+  text-transform: lowercase;
+  padding-bottom: 1em;
+}
+#resources {
+	color: #fff;
+}
+
+#footer{background:#333;}
+#footer h4{
+	display: inline-block;
+	width: 100%;
+	height: 360px;
+	text-align: center;
+	padding: 2em 0;
+	background: url(../images/revlovelogo-footer.svg) no-repeat center center transparent;
+	font-size: 0;
+
+}
+
+
+input, textarea {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	margin-bottom: 10px;
+	font-weight: 300;
+	min-width: 360px;
+} .btn-branded {
+    font-family: 'Montserrat', sans-serif;
+    background: #32becd;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+}.g-recaptcha{
+
+    text-align: center;
+    margin: 0px auto 15px;
+    width: 305px;
+}
+}
+#footer{background:#333;}
+#footer h4{
+	display: inline-block;
+	width: 100%;
+	height: 360px;
+	text-align: center;
+	padding: 2em 0;
+	background: url(../images/revlovelogo-footer.svg) no-repeat center center transparent;
+	font-size: 0;
+
+}
+@media (min-width:576px) {
+
+.brand {
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    line-height: 0.2;
+    font-weight: 300;
+    margin-right: -0.6em;
+}
+body {
+  background:#f2f2f2 url("../images/bg.jpg") no-repeat scroll center -100px / 100% ;
+ }
+#resources h2 {
+	  color: #f2f2f2;
+	  font-size: 3.3em;
+	  font-weight: 300;
+	  letter-spacing: 0.4em;
+	}
+}
+@media (min-width:992px) {
+
+	#navbarCollapse{
+		width: 100%;
+	}
+	.overlay {
+		background:url('../images/RL_logo.png') no-repeat center center/auto transparent;
+	}
+	.overlay h1{
+	    font-size: 120px;
+	}
+	#services .blurb{
+		font-size:1.8em;
+		color:#fff;
+		padding: 2em;
+		font-weight: 300;
+	}
+}

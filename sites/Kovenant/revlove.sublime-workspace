@@ -1,0 +1,1040 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Roo",
+				"ROOTPATH"
+			],
+			[
+				"roo",
+				"ROOTPATH"
+			],
+			[
+				"revlove",
+				"revlovellc"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"backgou",
+				"background-repeat"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"ea",
+				"ease-out"
+			],
+			[
+				"col",
+				"col-md-2"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"buster",
+				"busterOn"
+			],
+			[
+				"fow",
+				"forwards"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"fa",
+				"fadeout"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"sift",
+				"siftapi"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"su",
+				"subscribers"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"if",
+				"ifelse\tif … else …"
+			],
+			[
+				"user",
+				"useractive"
+			],
+			[
+				"sa",
+				"savedPwd"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"subs",
+				"subscribe"
+			],
+			[
+				"Pass",
+				"Passwords"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"err",
+				"errMsg"
+			],
+			[
+				"has",
+				"hasError"
+			],
+			[
+				"password",
+				"password_confirm"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"bar",
+				"background-repeat"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"togg",
+				"toggle_hide"
+			],
+			[
+				"el",
+				"elID"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"foot",
+				"foot-logo"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"st",
+				"strong\tTag"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"lato-bold",
+				"lato-bolditalic-webfont"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"her",
+				"hero-img"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"prop",
+				"proposal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "includes/functions.php",
+			"settings":
+			{
+				"buffer_size": 5011,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/header.php",
+			"settings":
+			{
+				"buffer_size": 4649,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/secondaryheader.php",
+			"settings":
+			{
+				"buffer_size": 4689,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/site.css",
+			"settings":
+			{
+				"buffer_size": 8050,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 9807,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "catalog/index.php",
+			"settings":
+			{
+				"buffer_size": 11572,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about.php",
+			"settings":
+			{
+				"buffer_size": 9225,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog.php",
+			"settings":
+			{
+				"buffer_size": 9183,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.php",
+			"settings":
+			{
+				"buffer_size": 12954,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Tax and CPA Services\n5318 E. 2nd Street, Suite 362\nLong Beach, CA 90803\nTel: (562) 901-0199\tFax: (562) 249-6910\n",
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Windows",
+				"name": "Tax and CPA Services"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/Kovenant"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/Kovenant/catalog.php",
+		"/C/wamp64/www/Kovenant/resources.php",
+		"/C/wamp64/www/Kovenant/css/bootstrap.min.css",
+		"/C/wamp64/www/Kovenant/blog.php",
+		"/C/wamp/www/RevLove/images/revlove-res-logo.svg",
+		"/C/wamp/www/RevLove/slick/slick-theme.css",
+		"/C/wamp/www/RevLove/images/echelon-26.svg",
+		"/C/wamp/www/LucGrey/index.php",
+		"/C/wamp/www/jenniferevans/contact.php",
+		"/C/wamp/www/RevLove/css/site.css",
+		"/C/wamp/www/RevLove/index.php",
+		"/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/index.html",
+		"/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/slick/slick.js",
+		"/C/wamp/www/crazeFitCardioClub/admin/styles.css",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/about.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/updateAbout.php",
+		"/C/DEV/WeeklyGlamour/Bin/System.Net.Http.Formatting.dll.refresh",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/updateHomeHero.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/slide_image_delete.php",
+		"/C/wamp/www/jru/admin/updateProjects.php",
+		"/C/DEV/Leadid_api2/packages/Antlr.3.5.0.2/Antlr.3.5.0.2.nupkg",
+		"/C/DEV/Leadid_api2/LeadiD API/bin/Antlr3.Runtime.pdb",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.AspNet.SignalR.JS.2.2.1/Microsoft.AspNet.SignalR.JS.2.2.1.nupkg",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll.refresh",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.AspNet.SignalR.Core.dll.refresh",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.AspNet.Web.Optimization.WebForms.dll.refresh",
+		"/C/wamp/www/crazeFitCardioClub/index.php",
+		"/C/wamp/www/crazeFitCardioClub/css/styles.css",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/proj_image_delete.php",
+		"/C/wamp/www/crazeFitCardioClub/subscriptions/welcome.php",
+		"/C/wamp/www/crazeFitCardioClub/subscriptions/monthly.php",
+		"/C/wamp/www/crazeFitCardioClub/register.php",
+		"/C/Users/xadmin/Documents/Visual Studio 2013/Projects/samplesandrebates-local/samplesandrebates-local.sln",
+		"/C/wamp/www/crazeFitCardioClub/includes/functions.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/index.php",
+		"/C/wamp/www/jru/admin/index.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/subscriptions.php",
+		"/C/wamp/www/jru/includes/functions.php",
+		"/C/wamp/www/jru/portfolio.php",
+		"/C/wamp/www/crazeFitCardioClub/subscribe.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/manage_users.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/logout.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/admin.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/adminfooterNav.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/adminfooter.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/navBar.php",
+		"/C/wamp/www/crazeFitCardioClub/regimens.php",
+		"/C/wamp/www/crazeFitCardioClub/css/bootstrap.css",
+		"/D/3bm/LEAD ID/Ad-Monster/web/index.html",
+		"/D/3bm/LEAD ID/Ad-Monster/web/css/styles.css",
+		"/C/wamp/www/crazefitCardio/about.php",
+		"/D/3bm/LEAD ID/Ad-Monster/web/css/bootstrap.css",
+		"/D/3bm/LEAD ID/Ad-Monster/web/starter-template.css",
+		"/C/wamp/www/traceSandbox/app/Controller/AppController.php",
+		"/C/wamp/www/traceSandbox/app/View/Layouts/default.ctp",
+		"/C/wamp/www/traceSandbox/app/Plugin/DebugKit/composer.json",
+		"/C/wamp/www/traceSandbox/app/Model/Post.php",
+		"/D/3bm/LEAD ID/MidPath/Web/survey_template.html",
+		"/D/3bm/LEAD ID/MidPath/Web/js/jquery.flexslider.js",
+		"/D/3bm/LEAD ID/MidPath/Web/adjector.html",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap-theme.min.css",
+		"/D/3bm/LEAD ID/MidPath/Web/css/styles.css",
+		"/D/3bm/LEAD ID/MidPath/Web/stacked.html",
+		"/D/3bm/LEAD ID/MidPath/Web/img/Skin_plus_StackedAds_03.png",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap.min.css",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap.css",
+		"/C/wamp/www/Daphne_Web/css/style.css",
+		"/C/wamp/www/Daphne_Web/bootstrap/css/bootstrap-docs.css",
+		"/C/wamp/www/Daphne_Web/index.html",
+		"/C/wamp/www/Daphne_Web/css/flat-ui.css",
+		"/C/wamp/www/Daphne_Web/bootstrap/css/bootstrap.css",
+		"/C/wamp/www/Daphne_Web/index2.htm",
+		"/C/wamp/www/Daphne_Web/README.md",
+		"/C/wamp/www/Daphne_Web/css/docs.css",
+		"/C/wamp/www/Daphne_Web/css/demo.css",
+		"/C/wamp/www/Daphne_Web/less/variables.less",
+		"/C/wamp/www/The Seguras/includes/navBar.php",
+		"/C/wamp/www/j&lwedding_website/includes/navbar.php",
+		"/C/wamp/www/marcoseguraPort/includes/navBar.php"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 140.0,
+		"where_history":
+		[
+			"C:\\wamp64\\www\\Kovenant",
+			"<open folders>",
+			"C:\\DEV\\mpe-solution",
+			"C:\\wamp\\www\\Daphne_Web",
+			"C:\\wamp\\www\\j&lwedding_website"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"src=\"images/",
+			"[",
+			" [",
+			"SERVER_NAME",
+			"\"images/",
+			"catalog.php",
+			"href=\"/",
+			"bio",
+			"blog",
+			"H2",
+			"bio",
+			"href=\"/",
+			"href=\"#home\"",
+			"missi",
+			"<div class=\"container row\">\n",
+			"<H2 class=\"col-sm-12\">",
+			"<div class=\"container\">",
+			"</H2>",
+			" - Line",
+			"Battle Tested",
+			"battle-tested",
+			" width=\"80%\"",
+			"/images",
+			"action",
+			"'\n",
+			"rev-logo-header",
+			" 0",
+			" 4",
+			" 2",
+			" 1",
+			",",
+			"2",
+			" 1",
+			"\n",
+			";",
+			"1.",
+			"2.",
+			"2",
+			"-",
+			"e18b5f",
+			"FAB414",
+			"e18b5f",
+			"6ECDD7",
+			"mission",
+			"blog",
+			"bg-inverse",
+			"LucGrey",
+			"LUCGREY",
+			"DFDFDF",
+			"Raleway",
+			"17181a",
+			"slickGoTo",
+			"customPaging",
+			"\n\topacity: 0;",
+			"Loading",
+			"\n  ",
+			"\n    ",
+			".5",
+			".5s",
+			"countdown",
+			"href=\"/",
+			"href=\"",
+			"./index.php_files/",
+			".download",
+			"admin",
+			"proj",
+			"updateProjects",
+			"../images/",
+			"project_image_lookup",
+			"../includes",
+			"folder",
+			"project_image_lookup",
+			"project",
+			"Project",
+			"project",
+			"proj_id",
+			"\"><",
+			"..\\..\\WebSites\\samplesandrebates-local\\",
+			"td",
+			"  \n\n",
+			"insert",
+			"$row",
+			"echo",
+			"authenticated",
+			"li",
+			"/PrivacyPolicy",
+			"$errMsg ",
+			"button",
+			"aboutBody",
+			", $_POST[",
+			"aboutHeader",
+			"aboutText",
+			"name",
+			"comments",
+			"fname",
+			"emailAdress",
+			"passwordErr",
+			"fname",
+			"h2",
+			"col-lg-3",
+			"http://lorempixel.com/output/sports-q-g-285-205-8.jpg",
+			"circle",
+			"\" title=",
+			"images/socialicons.png",
+			"clearafter",
+			"md",
+			"n a{",
+			"e=\"\"",
+			"class=\"",
+			"</h2>",
+			"h2>",
+			"><span",
+			"><",
+			"../../dist/",
+			"1",
+			"debug",
+			"previous",
+			"walmart",
+			"1170px",
+			"1170",
+			".container",
+			"20px",
+			"col-sm-2",
+			"’",
+			"Her Gallery",
+			"hergallery",
+			"Her Gallery",
+			"col-sm-4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"catalog/index.php",
+			"href=\"",
+			"href=\"index.php\"",
+			"RevLove",
+			"REVLOVE",
+			"f2f2f2",
+			"Montserrat",
+			"DFDFDF",
+			"dddddd",
+			"",
+			"//player.vimeo",
+			"-",
+			"\"",
+			"'",
+			"6D0081",
+			"target=\"_blank\"",
+			"\"images/party/",
+			"<span class=\"alert alert-info\">**</span>",
+			"('/includes/navbar.php');",
+			"<?php \n include(/includes/navbar.php);\n?>\n('includes/navbar.php')",
+			"<?php \n include(/includes/navbar.php);\n?>\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "includes/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "includes/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2655,
+								2655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1197.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "includes/secondaryheader.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3126,
+								3126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/site.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5851,
+								7351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8115.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2160,
+								3505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1412.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "catalog/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "about.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "blog.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "contact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1761,
+								1761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								112
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".",
+									"selector": "source.lua.corona"
+								}
+							],
+							"auto_name": "Tax and CPA Services",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "revlove.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 348.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

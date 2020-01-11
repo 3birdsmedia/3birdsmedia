@@ -1,0 +1,448 @@
+/*
+
+AOV - GREEN		#7dc81e rgba(125,200,30,1)
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i,900,900i');
+@keyframes kern{
+  0%{letter-spacing: 0px;opacity: 0;}
+  100%{letter-spacing: 0.5em;opacity: 1;}
+}
+@keyframes fadeIn{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes fadeOut{
+	0%{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+section h2 {
+  color: #3e71cc;
+  padding: 10px;
+  border: 2px solid #3e71cc;
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: -0.em;
+  margin:0.5em auto 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+body {
+  background:#fff no-repeat fixed center center ;
+  font-family: 'Montserrat', sans-serif;
+  color: #777;
+  text-align: center;
+}
+
+
+
+/* Tiny reset thingy */
+body,html{margin:0;padding:0;}
+
+.wrapper {
+  /* The height needs to be set to a fixed value for the effect to work.
+   * 100vh is the full height of the viewport. */
+  height: 100vh;
+  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+  overflow-x: hidden;
+  /* Enable scrolling on the page. */
+  overflow-y: auto;
+  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+  perspective: 2px;
+}
+/*
+section {
+	
+	for parallax*padding: 2em 0;/
+	/* Needed for children to be absolutely positioned relative to the parent. 
+  	position: relative;
+  	/* The height of the container. Must be set, but it doesn't really matter what the value is. 
+  	height: 100vh;
+  
+  /* For text formatting. 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.parallax::after {
+  /* Display and position the pseudo-element 
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. 
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. 
+  background-size: cover;
+  background-position: center;
+  /* Keep the image from overlapping sibling elements.  
+  z-index: -1;
+}*/
+
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+#hero .container{width: 100%;}
+#hero::after {  background-image: url('../images/bg.jpg');}
+#pricing::after {  background-image: url('../images/pricing-1.jpg');}
+
+
+
+
+
+input, textarea{
+	border-top:1px solid #affcff;
+	border-left:0px solid #affcff;
+	border-right:0px solid #affcff;
+	border-bottom:1px solid rgba(0,0,0,0.12);
+	background: #fff;
+	border-radius: 3px;
+	min-height: 50px;
+	font-size: 1em;
+	width: 100%;
+	max-width: 360px;
+	color: #777;
+	font-family: "Montserrat";
+	font-weight: 300;
+	padding: 0px 5px;
+    margin-bottom: 12px;
+}
+ input[type="submit"]{
+    background: #8f00f6;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+} 
+input#login_btn {
+	background: #4164ae;
+}
+form#register input[type="password"]{
+	width: calc(50% - 7px);
+	max-width: 174px;
+} 
+form#register input[type="password"]:first-child{
+	margin-right: 7px; 
+} 
+form#register label{
+	line-height: 1em;
+    color: #333;
+    text-align: left;
+}
+.fixed-top{z-index: 15000;}
+.row{margin:0;}
+.img-responsive{width: auto;max-width: 100%;}
+
+.navbar{min-height: 60px}
+#navbarCollapse{
+	width: 87%;
+	width: calc(100% - 60px);
+}.bg-inverse {
+  background-color: #fcfcfc;
+}.navbar-toggler {
+  
+  border: 1px solid #0275d8;
+ /* border-radius: 0rem;*/
+ }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 115, 215, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+/*
+ .navbar-nav .nav-link{
+	text-transform: uppercase;
+	color:#6cd4dc;
+	transition: all 0.5s ease-in-out 0s;
+}
+.navbar-inverse .navbar-nav .nav-link:hover,
+.navbar-inverse .navbar-nav .nav-link:focus,
+.navbar-inverse .navbar-nav .nav-link.active{
+	text-transform: uppercase;
+	color:#6cd4dc;
+	background:#777777;
+
+}
+.navbar-inverse .navbar-nav .nav-link.active{
+	background:transparent;
+}*/
+
+.brand {;
+    letter-spacing: 0em;
+    line-height: 0.2;
+    font-weight: 300;
+    margin-right: -0.6em;
+    padding: 0;
+}
+
+
+.brand .rev-logo-header{
+	font-size: 0;
+	width: 100%;
+	height: 40px;
+	display: block;
+	background: url(../images/stewardship-type.svg) no-repeat center center transparent;
+}
+
+.loginBar {
+padding: 30px 0;
+position: relative;
+color: #ccc;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2dc0cc+50,a7d357+50 */
+background: rgba(65,100,175,1);
+}
+
+.loginBar h2{color: #eee;border:2px solid #eee;  }
+.loginBar a{
+	text-decoration: underline;
+	color: #c480ff;
+}
+
+a.add{
+    background: #fefefe;
+    color: #8f00f6 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 0.5em 0;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    border-top: 1px solid #4ff6ff;
+    border-left: 0px solid #4ff6ff;
+    border-right: 0px solid #4ff6ff;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+a.add:hover{
+    color: #6cd4dc !important;
+    }
+
+.embed-responsive{position: absolute;}
+#mission .embed-responsive {
+	position: relative;
+	margin-bottom: 30px;
+}
+.overlay {
+	position: relative;
+
+	top: 0;
+	left: 0;
+	background:url('../images/stewardship-logo.svg') no-repeat center center/80% 80% transparent;
+	width: 100%;
+	min-height:  250px;
+}
+.overlay h1{
+    margin-top: 260px;
+    font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow:0px 2px 2px rgba(0,0,0,0.5);
+	animation: kern 5s ease-out forwards;
+  	animation-delay: 2s;
+}
+
+section#privacy{
+	background: #ccc;position: relative;color:#333;
+}
+
+section#mission,section#blog{background: #efefef;position: relative;}
+#pricing {
+    align-items: flex-start;
+    color: #121212;
+}
+
+#pricing img{
+	max-width: 40%;
+}
+
+#pricing .copy {
+    background: rgba(255,255,255,0.87);
+    border-radius: 5px;
+    padding: 1em;
+}
+#pricing .copy ul {
+	text-align: left;
+}
+
+
+#footer{background:#333;}
+#footer h4{
+	display: inline-block;
+	width: 100%;
+	height: 360px;
+	text-align: center;
+	padding: 2em 0;
+	background: url(../images/revlovelogo-footer.svg) no-repeat center center transparent;
+	font-size: 0;
+
+}
+
+.tips-wrap{
+	position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: 340px;
+    margin-bottom: 24px;
+}
+.tips-wrap img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    opacity: 0.3;
+    transition: all 1s ease ;	
+}
+.tips-wrap img:hover{
+    opacity: 0.7;	
+}
+.tips-wrap .tips-title{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	padding:0px 12px;
+	text-align: center;
+	top: calc(50% - 1em);
+	font-size: 2em;
+	color: #4164ae;
+	z-index: 20;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+.g-recaptcha > div{
+	margin:0 auto 1em;
+}
+
+.contMsg{
+	padding:0.5em;
+	margin: 0.5em auto;
+}
+
+section#footer{padding: 2em 0px;}
+section#footer .family{
+	background: url('../images/family.svg') no-repeat center center/contain transparent;
+	position: relative;
+	width: 100%;
+	height: 50px;
+
+	text-transform: uppercase;
+	color: #fff;
+	z-index: 5000;
+	font-weight: normal;
+	text-align: center;
+}
+
+section#footer .family h2{
+	font-size: 0px;
+	border: 0px;
+}
+section .kovenant		{background: url('../images/logo_Kovenant.svg') no-repeat center center/contain #101010;}
+section .stewardship	{background: url('../images/logo_Stewardship.svg') no-repeat center center/contain #101010;}
+section .revolution		{background: url('../images/logo_Revolution.svg') no-repeat center center/contain #101010;}
+section .firmfoundation	{background: url('../images/logo_FirmFoundation.svg') no-repeat center center/contain #101010;}
+section .arrowofvictory	{background: url('../images/logo_ArrowOfVictory.svg') no-repeat center center/contain #101010;}
+section .revlove		{background: url('../images/logo_RevLove.svg') no-repeat center center/contain #101010;}
+section .apokaradokia	{background: url('../images/logo_Apokaradokia.svg') no-repeat center center/contain #101010;}
+section#footer{
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background: #101010;
+	z-index: 50000;
+	display: block;
+     height: auto;
+}
+
+section#footer .box{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
+	font-size: 0px;
+}
+section#footer .box a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+}
+
+
+@media (min-width:576px) {
+
+.brand {
+    font-size: 0em;
+    letter-spacing: 0.5em;
+    line-height: 0.2;
+    font-weight: 300;
+    margin-right: -0.6em;
+}
+#mission .mission-quote{
+	font-size: 4em;
+}
+body {
+  background:#f2f2f2 url("../images/bg.jpg") no-repeat fixed center -100px / 150% ;
+ }
+	section h2 {
+
+	  font-size: 2em;
+
+	}
+}
+
+@media (min-width: 768px){
+	
+	form#register label,
+	form#login label{
+		
+	    line-height: 3em;
+	    color: #ccc;
+	    text-align: right;
+	}
+	#pricing {
+	    align-items: center;
+	}
+	#pricing img {
+		max-width: 100%
+	}
+	#pricing .copy {
+		text-align: left;
+	}
+}
+
+@media (min-width:992px) {
+
+body {
+  #background:#f2f2f2 none no-repeat scroll center -100px / 150% ;
+ }
+	#navbarCollapse{
+		width: 100%;
+	}
+	.overlay {
+		background:url('../images/stewardship-logo.svg') no-repeat center center/80% 80% transparent;
+	}
+	.overlay h1{
+	    font-size: 120px;
+	}
+	/*#services .blurb{
+		font-size:1.8em;
+		color:#fff;
+		padding: 2em;
+		font-weight: 300;
+	}*/
+}

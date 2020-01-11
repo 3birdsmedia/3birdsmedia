@@ -1,0 +1,881 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"err",
+				"errorMessage"
+			],
+			[
+				"mail",
+				"mailSent"
+			],
+			[
+				"revlove",
+				"revlovellc"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"page",
+				"pageName"
+			],
+			[
+				"res",
+				"responsive"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"buster",
+				"busterOn"
+			],
+			[
+				"fow",
+				"forwards"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"fa",
+				"fadeout"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"sift",
+				"siftapi"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"su",
+				"subscribers"
+			],
+			[
+				"col",
+				"columnkey"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"if",
+				"ifelse\tif … else …"
+			],
+			[
+				"user",
+				"useractive"
+			],
+			[
+				"sa",
+				"savedPwd"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"subs",
+				"subscribe"
+			],
+			[
+				"Pass",
+				"Passwords"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"has",
+				"hasError"
+			],
+			[
+				"password",
+				"password_confirm"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"bar",
+				"background-repeat"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"togg",
+				"toggle_hide"
+			],
+			[
+				"el",
+				"elID"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"foot",
+				"foot-logo"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"st",
+				"strong\tTag"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"lato-bold",
+				"lato-bolditalic-webfont"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"her",
+				"hero-img"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"prop",
+				"proposal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "includes/header.php",
+			"settings":
+			{
+				"buffer_size": 4794,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/index.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "includes/functions.php",
+			"settings":
+			{
+				"buffer_size": 5181,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 12785,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\ninclude('includes/functions.php');\n$busterOn = true;\nif($busterOn !== false){\n  $buster = rand (1,254);\n  $buster = \"?v=.$buster\";\n}else{\n  $buster = \"\";\n}\n//ini_set('display_errors', 1);\n//ini_set('display_startup_errors', 1);\n//error_reporting(E_ALL);\n\n\n\n        \n       \nprint_r($_POST);\nif(isset($_POST['submit'])) {\n    //  if(isset($_POST['name'])){$name = $_POST['name'];}\n    //  if(isset($_POST['email'])){$email = $_POST['email'];}\n      //  if(isset($_POST['phone'])){$phone = $_POST['phone'];}\n     //   if(isset($_POST['comments'])){$comments = $_POST['comments'];}\n        $error = '';\n  //Check to make sure comments were entered\n     /*     if(trim($_POST['comments']) == '') {\n            $hasError = true;\n            $error = \"Please send us a message\";\n          } else {\n            if(function_exists('stripslashes')) {\n              $comments = stripslashes(trim($_POST['comments']));\n            } else {\n              $comments = trim($_POST['comments']);\n            }\n          }   */  \n      \n        \n        //echo \"<h1> sending email</h1>\";\n      //Check to make sure that the name field is not empty\n        if(trim($_POST['name']) == '') { \n          $hasError = true;\n          $error = \"Please fill in your name\";\n        } else {\n          $name = trim($_POST['name']);\n        }\n        \n        $email = test_input($_POST[\"email\"]);\n        \n        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {\n          $hasError = true;\n          $error = \"Invalid email format\";\n\n        }\n       \n       //if(validEmail($email) == false){ $error = \"Please give us a valid email adress\";$hasError = true;}else{}\n\n\n        \n        //echo \"<h1> sending email</h1>\";\n        //If there is no error, send the email\n        if(!isset($hasError)) {\n       // echo \"<h1> EMAIL SENT</h1>\";\n          $to = \"adminteam@revlovellc.com\";\n          $subject = \"You've got a message from your site\";\n      \n      \n            $msg =  \"<h2>You have received an inquiry from the website</h2> \\n\n                \\n <h3>Name:</h3>\\n  \".$name.\n                \"\\n <h3>Email:</h3>\\n  \".$email.\n                \"\\n <h3>Phone:</h3>\\n  \".$phone.\n                \"\\n <h3>Decription:</h3>\\n  \".$comments;         \n\n          $headers =  'From: marketingteam@revlovellc.com' . \"\\r\\n\" .\n                      'Content-type: text/html; charset=iso-8859-1' . \"\\r\\n\" .\n                      'MIME-Version: 1.0' . \"\\r\\n\" .\n                      'Reply-To: adminteam@revlovellc.com' . \"\\r\\n\" .\n                      'X-Mailer: PHP/' . phpversion();\n        // send it\n      $mailSent = mail('marco@revlovellc.com', $subject, '<html>'.$msg.'</html>', $headers);\n      $mailSent = mail($to, $subject, '<html><body>'.$msg.'</body></html>', $headers);\n      //if (!$mailSent) {\n      //    $errorMessage = error_get_last()['message'];\n      //    echo \"<h1>$errorMessage</h1>\";\n      //}\n\n      $emailSent = true;\n\n  }\n}\n\n\n?>\n<?php include_once(\"includes/analyticstracking.php\") ?>\n\n<?php include(\"includes/header.php\") ?>  \n  \n       <div class=\"embed-responsive embed-responsive-16by9 hidden-md-down\">\n        <iframe src=\"https://player.vimeo.com/video/227705095?autoplay=1&loop=1&title=0&byline=0&portrait=0&color=FAB414\" width=\"640\" height=\"480\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\n\n\n      </div>  \n    <div class=\"container\" id=\"home\">\n\n      <div class=\"overlay\">\n      </div>\n\n    </div><!-- /.container -->\n    <section id=\"contact\">\n      <div class=\"container\">\n\n          <h2>Contact Us</h2>\n        <div class=\"row\">\n        <div class=\"col-sm-12 text-center\"><h3>Get in touch <strong>with us</strong></h3></div>\n          <div class=\"col-sm-12 col-lg-6 sub\">\n              <p>RevLove LLC, the first ever faith-based tax preparation firm. Although, our goal as a firm is to be high-caliber professionals, delivering best in class quality to each of our clients, our mission is to be Kingdom-builders and vessels through which God can move His Kingdom forward.</p>\n          </div>\n          <div class=\"col-sm-12 col-lg-6 contact-form\">\n            <?php\n              if(isset($error) && $error !== ''){echo \"<div id='msg' class='contMsg alert-danger'>$error</div>\";\n              }elseif(isset($emailSent) && $emailSent == true){\n                  echo \"<div id='msg'  class='contMsg alert-success'>Your message has been sent, we will contact you as soon as possible</div>\"; \n              }else{\n                  echo \"<div id='msg' class='contMsg'>Send us a note and we will get back to you as soon as possible! </div>\";\n                            }\n            ?>\n            <form action=\"#contact\" method=\"post\" id='contactForm' name='contactForm' class=\"form-horizontal\" role=\"form\" > \n              <input type=\"text\" name=\"name\" placeholder=\"*First & Last Name\"  required=\"required\" />\n              <input type=\"text\" name=\"email\" placeholder=\"*Valid Email\" required=\"required\" />\n              <input type=\"phone\" name=\"phone\" placeholder=\"Phone\">\n              <textarea type=\"text-area\" name=\"comments\" placeholder=\"Message\"></textarea>\n            <div class=\"g-recaptcha\" data-sitekey=\"6LdqPUMUAAAAABaWngWG0TcsNRv_4rsPSz4ijMNo\"></div>\n            <input type=\"submit\" value=\"Send\" name=\"submit\" class=\"btn btn-branded\">\n            </form>\n          </div>\n        </div>\n      </div>\n      \n    </section>\n    \n   \n\n\n<section id=\"footer\">\n      <h4>REVLOVE</h4>\n      <div class=\"col-xs-12 text-right\">\n        <h5>AN <a href=\"http://www.apokaradokiallc.com/\" style=\"color:#ee1e3a;font-weight: bold;\">APOKARADOKIA</a> COMPANY </h5><br/>\n</section>\n    <!-- Bootstrap core JavaScript\n    ================================================== -->\n    <!-- Placed at the end of the document so the pages load faster -->\n    <script src=\"https://code.jquery.com/jquery-3.2.1.js\" integrity=\"sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=\" crossorigin=\"anonymous\"></script>\n    <script>window.jQuery || document.write('<script src=\"../../assets/js/vendor/jquery.min.js\"><\\/script>')</script>\n    <script src=\"js/tether.min.js\" integrity=\"sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb\" crossorigin=\"anonymous\"></script>\n    <script src=\"js/bootstrap.min.js\"></script>\n    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->\n    <script src=\"js/ie10-viewport-bug-workaround.js\"></script>\n    <script src=\"https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js\"></script>\n    <script type=\"text/javascript\" src=\"slick/slick.min.js\"></script>\n    <script type=\"text/javascript\">\n    //initiate animations\n    AOS.init();\n\n        var oWidth = $( \".overlay\" ).width();\n        var oHeigth = oWidth*0.5625;\n        var vWidth = $( window ).width();\n        $('.overlay').height(oHeigth);\n\n        var vimeoWidth = $( \".about-quote iframe\" ).width();\n        var vimeoHeigth = vimeoWidth*0.5625;\n        $('.about-quote iframe').height(vimeoHeigth);\n        \n        var resrcWidth = $( \".vid-resource iframe\" ).width();\n        var resrcHeigth = resrcWidth*0.5625;\n        $('.vid-resource iframe').height(resrcHeigth);\n\n    $(document).ready(function(){\n        var oWidth = $( \".overlay\" ).width();\n        var oHeigth = oWidth*0.5625;\n       \n        var vimeoWidth = $( \".about-quote iframe\" ).width();\n        var vimeoHeigth = vimeoWidth*0.5625;\n\n        var resrcWidth = $( \".vid-resource iframe\" ).width();\n        var resrcHeigth = resrcWidth*0.5625;\n\n        $('.vid-resource iframe').animate({\n          height: resrcHeigth\n        }, 500);\n\n        $('.about-quote iframe').animate({\n          height: vimeoHeigth\n        }, 500);\n\n        $('.overlay').animate({\n          height: oHeigth\n        }, 500, function() {\n              // Animation complete.\n          if( vWidth <= 576) {\n              var oVert = (oHeigth/2)-20;\n          }else if( vWidth <= 1080) {\n              var oVert = (oHeigth/2)-30;\n          }else{\n              var oVert = (oHeigth/2)-60;\n          }\n\n          $('.overlay h1').css('margin-top',(oVert));\n        });\n    $(window).resize(debouncer(function (e) {\n        var oWidth = $( \".overlay\" ).width();\n        var oHeigth = oWidth*0.5625;\n      \n        var vimeoWidth = $( \".about-quote iframe\" ).width();\n        var vimeoHeigth = vimeoWidth*0.5625;\n\n        var resrcWidth = $( \".vid-resource iframe\" ).width();\n        var resrcHeigth = resrcWidth*0.5625;\n\n        $('.vid-resource iframe').animate({\n          height: resrcHeigth\n        }, 500);\n        $('.about-quote iframe').animate({\n          height: vimeoHeigth\n        }, 500);\n        $('.overlay').animate({\n          height: oHeigth\n        }, 500, function() {\n          // Animation complete.\n         // Animation complete.\n          if( vWidth <= 576) {\n              var oVert = (oHeigth/2)-20;\n          }else if( vWidth <= 1080) {\n              var oVert = (oHeigth/2)-30;\n          }else{\n              var oVert = (oHeigth/2)-60;\n          }\n          $('.overlay h1').css('margin-top',(oVert));\n        \n        });\n       }));\n      })\n\n$(document).ready(function(){\n  $('.services-carousel').slick({\n    centerMode: true,\n    centerPadding: '60px',\n    slidesToShow: 3,\n    responsive: [\n      {\n        breakpoint: 768,\n        settings: {\n          arrows: false,\n          centerMode: true,\n          centerPadding: '40px',\n          slidesToShow: 3\n        }\n      },\n      {\n        breakpoint: 480,\n        settings: {\n          arrows: false,\n          centerMode: true,\n          centerPadding: '40px',\n          slidesToShow: 1\n        }\n      }\n    ]\n  });\n});\n\n//--------------------------------------------------------------------------------------------------------------------------------------------------\n//---------------------------PREVENT RESIZE TO FIRE UP MORE THAN ONE EVENT\n//----------------------------------------------------------------------------------------------------------------------------------------------------\n//just wrap funtion in this \n//    $(window).resize(debouncer(function (e) {\n//        // do stuff \n//    }));\nfunction debouncer(func, timeout) {\n    var timeoutID, timeout = timeout || 500;\n    return function () {\n        var scope = this, args = arguments;\n        clearTimeout(timeoutID);\n        timeoutID = setTimeout(function () {\n            func.apply(scope, Array.prototype.slice.call(args));\n        }, timeout);\n    }\n}// Select all links with hashes\n$('a[href*=\"#\"]')\n  // Remove links that don't actually link to anything\n  .not('[href=\"#\"]')\n  .not('[href=\"#0\"]')\n  .click(function(event) {\n    // On-page links\n    if (\n      location.pathname.replace(/^\\//, '') == this.pathname.replace(/^\\//, '') \n      && \n      location.hostname == this.hostname\n    ) {\n      // Figure out element to scroll to\n      var target = $(this.hash);\n      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');\n      // Does a scroll target exist?\n      if (target.length) {\n        // Only prevent default if animation is actually gonna happen\n        event.preventDefault();\n        $('html, body').animate({\n          scrollTop: target.offset().top\n        }, 1000, function() {\n          // Callback after animation\n          // Must change focus!\n          var $target = $(target);\n          $target.focus();\n          if ($target.is(\":focus\")) { // Checking if the target was focused\n            return false;\n          } else {\n            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable\n            $target.focus(); // Set focus again\n          };\n        });\n      }\n    }\n  });\n    </script>\n</body></html>",
+			"file": "contact.php",
+			"file_size": 11618,
+			"file_write_time": 131645012668695577,
+			"settings":
+			{
+				"buffer_size": 11646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "financials.php",
+			"settings":
+			{
+				"buffer_size": 8144,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources.php",
+			"settings":
+			{
+				"buffer_size": 9236,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/site.css",
+			"settings":
+			{
+				"buffer_size": 7776,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Ruth Brown\n(513)594-1138\n62 Minot St, Boston, MA 2122\nruthgiffordbrown@yahoo.com",
+			"settings":
+			{
+				"buffer_size": 80,
+				"line_ending": "Windows",
+				"name": "Ruth Brown"
+			}
+		},
+		{
+			"file": "outreach.php",
+			"settings":
+			{
+				"buffer_size": 8144,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/RevLove",
+		"/C/wamp64/www/RevLove/css",
+		"/C/wamp64/www/RevLove/includes"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/RevLove/resources/index.php",
+		"/C/wamp64/www/RevLove/resources/bookkeeping.php",
+		"/C/wamp64/www/RevLove/resources/instant_gratification.php",
+		"/C/wamp/www/RevLove/includes/analyticstracking.php",
+		"/C/wamp/www/RevLove/css/bootstrap.min.css",
+		"/C/wamp/www/Gina Nelson/index.php",
+		"/C/wamp/www/RevLove/index.php",
+		"/C/wamp/www/RevLove/images/index.php",
+		"/C/wamp/www/RevLove/css/site.css",
+		"/C/wamp/www/RevLove/resources.php",
+		"/C/wamp/www/RevLove/images/revlove-res-logo.svg",
+		"/C/wamp/www/RevLove/slick/slick-theme.css",
+		"/C/wamp/www/RevLove/images/echelon-26.svg",
+		"/C/wamp/www/LucGrey/index.php",
+		"/C/wamp/www/jenniferevans/contact.php",
+		"/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/index.html",
+		"/C/Users/xadmin/Downloads/slick-1.6.0/slick-1.6.0/slick/slick.js",
+		"/C/wamp/www/crazeFitCardioClub/admin/styles.css",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/about.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/updateAbout.php",
+		"/C/DEV/WeeklyGlamour/Bin/System.Net.Http.Formatting.dll.refresh",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/updateHomeHero.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/slide_image_delete.php",
+		"/C/wamp/www/jru/admin/updateProjects.php",
+		"/C/DEV/Leadid_api2/packages/Antlr.3.5.0.2/Antlr.3.5.0.2.nupkg",
+		"/C/DEV/Leadid_api2/LeadiD API/bin/Antlr3.Runtime.pdb",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.AspNet.SignalR.JS.2.2.1/Microsoft.AspNet.SignalR.JS.2.2.1.nupkg",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll.refresh",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml",
+		"/C/Users/xadmin/Documents/Visual Studio 2015/Projects/WeeklyGlamour/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.AspNet.SignalR.Core.dll.refresh",
+		"/C/DEV/WeeklyGlamour/Bin/Microsoft.AspNet.Web.Optimization.WebForms.dll.refresh",
+		"/C/wamp/www/crazeFitCardioClub/index.php",
+		"/C/wamp/www/crazeFitCardioClub/css/styles.css",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/proj_image_delete.php",
+		"/C/wamp/www/crazeFitCardioClub/subscriptions/welcome.php",
+		"/C/wamp/www/crazeFitCardioClub/subscriptions/monthly.php",
+		"/C/wamp/www/crazeFitCardioClub/register.php",
+		"/C/Users/xadmin/Documents/Visual Studio 2013/Projects/samplesandrebates-local/samplesandrebates-local.sln",
+		"/C/wamp/www/crazeFitCardioClub/includes/functions.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/index.php",
+		"/C/wamp/www/jru/admin/index.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/update/subscriptions.php",
+		"/C/wamp/www/jru/includes/functions.php",
+		"/C/wamp/www/jru/portfolio.php",
+		"/C/wamp/www/crazeFitCardioClub/subscribe.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/manage_users.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/logout.php",
+		"/C/wamp/www/crazeFitCardioClub/admin/admin.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/adminfooterNav.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/adminfooter.php",
+		"/C/wamp/www/crazeFitCardioClub/includes/navBar.php",
+		"/C/wamp/www/crazeFitCardioClub/regimens.php",
+		"/C/wamp/www/crazeFitCardioClub/css/bootstrap.css",
+		"/D/3bm/LEAD ID/Ad-Monster/web/index.html",
+		"/D/3bm/LEAD ID/Ad-Monster/web/css/styles.css",
+		"/C/wamp/www/crazefitCardio/about.php",
+		"/D/3bm/LEAD ID/Ad-Monster/web/css/bootstrap.css",
+		"/D/3bm/LEAD ID/Ad-Monster/web/starter-template.css",
+		"/C/wamp/www/traceSandbox/app/Controller/AppController.php",
+		"/C/wamp/www/traceSandbox/app/View/Layouts/default.ctp",
+		"/C/wamp/www/traceSandbox/app/Plugin/DebugKit/composer.json",
+		"/C/wamp/www/traceSandbox/app/Model/Post.php",
+		"/D/3bm/LEAD ID/MidPath/Web/survey_template.html",
+		"/D/3bm/LEAD ID/MidPath/Web/js/jquery.flexslider.js",
+		"/D/3bm/LEAD ID/MidPath/Web/adjector.html",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap-theme.min.css",
+		"/D/3bm/LEAD ID/MidPath/Web/css/styles.css",
+		"/D/3bm/LEAD ID/MidPath/Web/stacked.html",
+		"/D/3bm/LEAD ID/MidPath/Web/img/Skin_plus_StackedAds_03.png",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap.min.css",
+		"/D/3bm/LEAD ID/MidPath/Web/css/bootstrap.css",
+		"/C/wamp/www/Daphne_Web/css/style.css",
+		"/C/wamp/www/Daphne_Web/bootstrap/css/bootstrap-docs.css",
+		"/C/wamp/www/Daphne_Web/index.html",
+		"/C/wamp/www/Daphne_Web/css/flat-ui.css",
+		"/C/wamp/www/Daphne_Web/bootstrap/css/bootstrap.css",
+		"/C/wamp/www/Daphne_Web/index2.htm",
+		"/C/wamp/www/Daphne_Web/README.md",
+		"/C/wamp/www/Daphne_Web/css/docs.css",
+		"/C/wamp/www/Daphne_Web/css/demo.css",
+		"/C/wamp/www/Daphne_Web/less/variables.less",
+		"/C/wamp/www/The Seguras/includes/navBar.php",
+		"/C/wamp/www/j&lwedding_website/includes/navbar.php",
+		"/C/wamp/www/marcoseguraPort/includes/navBar.php"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\"index.php\"",
+			"\"slick/",
+			"\"js/",
+			"js/",
+			"images/",
+			"images"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "includes/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4793,
+								4793
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1721.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/index.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "includes/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5181,
+								5045
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1345,
+								1345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "contact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1012,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 147.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "financials.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								9236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1039.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/site.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3047,
+								3047
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2494.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 80,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								80
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Ruth Brown",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "outreach.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "revlove.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 348.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
