@@ -1,0 +1,171 @@
+/*
+CSS file created with:Instant Blueprint - Create a web project framework in seconds.
+http://instantblueprint.com
+
+Project: CJT 
+File: css/style.css
+Last edited: January 7, 2011, 1:51 pm
+*/
+
+@font-face {
+    font-family: "Myriad-Proit";
+    src: url("type/myriadpro-semiboldit-webfont.eot");
+}
+@font-face {
+    font-family: "Myriad-Proit";
+    font-style: normal;
+    font-weight: normal;
+    src: url("type/myriadpro-semiboldit-webfont.woff") format("woff"), url("type/myriadpro-semiboldit-webfont.ttf") format("truetype"), url("type/myriadpro-semiboldit-webfont.svg") format("svg");
+}
+
+@font-face {
+    font-family: "Arial Narrow";
+    src: url("type/arial_narrow.eot");
+}
+@font-face {
+    font-family: "Arial Narrow";
+    font-style: normal;
+    font-weight: normal;
+    src: url("type/arial_narrow.woff") format("woff"), url("type/arial_narrow.ttf") format("truetype"), url("type/arial_narrow.svg") format("svg");
+}
+
+@font-face {
+    font-family: "Arial Narrow Bold";
+    src: url("type/arial_narrow_bold.eot");
+}
+@font-face {
+    font-family: "Arial Narrow Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("type/arial_narrow_bold.woff") format("woff"), url("type/arial_narrow_bold.ttf") format("truetype"), url("type/arial_narrow_bold.svg") format("svg");
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -90px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#footer, #push {
+    
+	height:90px; /* .push must be the same height as .footer */
+        clear:both;
+}
+
+#footer {
+    border-top: 0.1em solid #BBBBBB;
+    display: block;
+    margin: auto;
+    position: relative;
+    background-color:#FFF;
+    top:50px;
+}
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+/*  Main  */
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+
+
+#header{
+    background: url('../images/header_grad.jpg') repeat-x;
+}
+
+#logo {
+    background: url("../images/logo.jpg") repeat scroll 0 0 transparent;
+    display: block;
+    height: 190px;
+    position: relative;
+    top: 15px;
+    width: 155px;
+    z-index: 100;
+}
+
+#logo h1{
+    display:none;
+}
+#inner-header {
+    background: url("../images/header_bg.gif") no-repeat scroll 190px 0 transparent;
+    left: 25px;
+    margin: auto;
+    position: relative;
+    width: 989px;
+    z-index: 100;
+}
+.slogan {
+    color: #555555;
+    font-family: Myriad-Pro,Arial Narrow,Arial;
+    font-size: 15px;
+    font-style: italic;
+    left: 155px;
+    position: absolute;
+    top: 162px;
+}
+
+
+
+#content {
+    margin: auto;
+    position: relative;
+    top: 20px;
+    width: 400px;
+    height:100%;
+    font-family:'Myriad Pro', Arial, helvetica, sans-serif;
+    font-size:1.2em;
+}
+
+form label{
+    display:block;
+    width:130px;
+    text-align:right;
+    float:left;
+    clear:left;
+    margin-right:10px;
+    margin-top:10px;
+    
+    height:20px;
+    vertical-align:middle;
+}
+
+form input {
+    width:220px;
+    margin-top:15px;
+    border:0.1em  solid #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(214,214,214)),
+    color-stop(1, rgb(255,255,255))
+);
+    background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(214,214,214) 0%,
+    rgb(255,255,255) 100%
+);
+}
+
+
+
+#remove {
+    width:50px;
+    display:block;
+    float:left;
+}

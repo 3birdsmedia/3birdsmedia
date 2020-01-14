@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "name": "iAmLife.com",
+      "highlights": [
+        {
+          "languages" : [{"HTML5", "CSS3", "PHP", "Javascript"}],
+          "frameworks" : [{"Symphony", "Vue.js", "Quasar"}],
+          "skills" : [{"Drupal 8", "Design" }]
+        }
+      ],
+      "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI designer for graphics and also provided the company with \"How to ...\" videos. I became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
+      "images" : [{"iAmLife-thumb.jpg"}]
+      "demo-url" : false,
+      "live-url" : "https://iamlife.com",
+      "tags" : {"design", "development"}
+    },
+    {
+      "name": "Apokaradokia, LLC",
+      "highlights": [
+        {
+          "languages" : [{"HTML", "CSS3", "PHP", "Javascript"}],
+          "frameworks" : [{"jQuery", "bootstrap"}],
+          "skills" : [{"Development", "Design" }]
+        }
+      ],
+      "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI designer for graphics and also provided the company with \"How to ...\" videos. I became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
+      "images" : [{"iAmLife-thumb.jpg"}]
+      "demo-url" : false,
+      "live-url" : "https://iamlife.com",
+      "tags" : {"design", "development"}
+    },
+    {
+      "name": "Digiprint Products",
+      "highlights": [
+        {
+          "languages" : [{"HTML", "CSS3", "PHP", "MySQL"}],
+          "frameworks" : [{"jQuery", "bootstrap"}],
+          "skills" : [{"Development", "CMS", "Payment Gateway Integration", "e-Commerce" }]
+        }
+      ],
+      "description" : "<p>This website was a colaboration between Design Pros, Inc on the design side and 3BirdsMedia on the development side. One of my most challenging sites yet, due to the many layers of complexity that these products carried with them. From ordering single sheets, to ordering pre-printed bulk, all this functionalities are included in the cart.</p><p>Another nice detail on this site is that it has a fully integrated CMS, this way the user could upload, edit, delete all their products. It also had an order tracking system.</p>",
+      "images" : [{"digiprint-thumb.jpg"}]
+      "demo-url" : "digiprintnew",
+      "live-url" : false,
+      "tags" : {"design", "development"}
+    },
+    {
+      "name": "Daphne Valerius Portfolio",
+      "highlights": [
+        {
+          "languages" : [{"HTML", "CSS3"}],
+          "frameworks" : [{"jQuery", "bootstrap"}],
+          "skills" : [{"Development", "Design" }]
+        }
+      ],
+      "description" : "<p>Long time friend and client Daphne Valerious needed a portfolio website for her production reel and other functions. After stablishing that she wanted a one page layout, looking at some inspirations sites, and some quick mockups, this is the layout we agreed on.</p><p>One of the main challenges for this site was keeping the user in the same page, to achieve this all galleries and videos are loaded with either lightbox (for galleries) or bPopUp (for any other content).</p><p>The color scheme comes from Daphne's logo, also we chose a dark background on certain sections to make the imagery stand out more and give the site contrast.</p>",
+      "images" : [{"daphne-thumb.jpg"}]
+      "demo-url" : "daphne",
+      "live-url" : "http://www.daphnevalerius.com",
+      "tags" : {"design", "development"}
+    }
+  ]
+}

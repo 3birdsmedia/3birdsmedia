@@ -1,0 +1,159 @@
+
+@font-face {
+font-family: "Nirvana";
+src: url("type/nirvana.eot");
+
+}
+
+@font-face {
+font-family: "Nirvana";
+src: url("type/nirvana.otf") format("opentype");
+src: url("type/nirvana.woff") format("woff"),
+url("type/nirvana.ttf") format("truetype"),
+url("type/nirvana.svg") format("svg");
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+body {
+ font-family: 'Nirvana', 'Onyx', serif;
+ font-size: 20px;
+ letter-spacing:0.08em;
+ color:#8E5529;
+ background-color:#000;
+}
+
+#wrapper {
+ margin:0 auto;
+ width:980px; /*  Change to desired width :)  */
+}
+
+#left-cont {
+    background:url('../images/leftgrad.jpg');
+    width:170px;
+    height:500px;
+    float:left;
+    margin-left:5px;
+}
+
+#logo{
+    width:125px;
+    height:75px;
+    margin:auto;
+    background:url('../images/logo.gif') no-repeat center;
+    top:50px;
+    position:relative;
+}
+
+#logo h1 {display:none;}
+
+#right-cont {
+    height:500px;
+    width:750px;
+    float:left;
+    margin-left:25px;
+}
+
+#navbar {
+    width:750px;
+    height:85px;
+    float:left;
+    margin-left:200px;
+}
+
+#navBar ul li {
+    float:left;
+    width:150px;
+    text-align:center;
+    font-size:35px;
+    position:relative;
+    top:25px;
+}
+
+#navBar a {color:#8E5529}
+#navBar a:hover{color:#683E21;}
+
+#footer {
+}
+
+#activePage {
+    color:#9f663a
+}
+
+
+/*=====================================================Forms=================================================*/
+
+label{
+        display:block;
+        width:250px;
+        height:20px;
+        position:relative;
+        margin-bottom:15px;
+        float:left;
+	top:15px;
+	clear:both;
+}
+input {
+	width: 250px;
+	height:25px;
+	display:block;
+	position:relative;
+	background: #fff;
+        background-image: -webkit-gradient(linear,left bottom,left top,
+                            color-stop(0.05, rgb(255,255,255)
+                            ),
+                            color-stop(1, rgb(255,195,130)
+                            )
+                        );
+        background-image: -moz-linear-gradient(center bottom,
+                            rgb(255,240,230) 0%,
+                            rgb(200,200,200) 100%
+                        );
+	border:0.1em solid #646464;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	padding-left:5px;
+	float:left;clear:both;
+	font-size:12px;
+	color:#000;
+	margin-bottom:15px;
+	top:15px;
+}
+
+textarea {
+	width:200px;
+	height:100px;
+	display:block;
+	position:relative;
+	background: #fff;
+        background-image: -webkit-gradient(linear,left bottom,left top,
+                            color-stop(0.05, rgb(255,255,255)
+                            ),
+                            color-stop(1, rgb(200,200,200)
+                            )
+                        );
+        background-image: -moz-linear-gradient(center bottom,
+                            rgb(255,255,255) 0%,
+                            rgb(200,200,200) 100%
+                        );
+	border:0.15em solid #555;
+	-moz-border-radius:3px;
+	padding-left:3px;
+	font-size:12px;
+	color:#555;
+	float:left;
+	clear:both;
+	top:15px;
+	margin-bottom:15px;
+}
+
+.error {
+	color: #ff0000 !important;
+}
+
+
+/*======================================================NAVBAR=================================================*/
+
