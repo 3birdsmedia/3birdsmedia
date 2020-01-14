@@ -32,41 +32,7 @@ include('includes/functions.php');
   <section id="portfolio" class="sec-parallax">
               <h1 class="title">My Work</h1>
   </section>
-    <div class="cd-tab-filter-wrapper">
-      <div class="cd-tab-filter">
-        <ul class="cd-filters">
-          <li class="placeholder">
-            <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
-          </li>
-          <li class="filter"><a class="selected" href="#0" data-type="all">All</a></li>
-          <li class="filter" data-filter=".design"><a href="#design" data-type="design">Designed</a></li>
-          <li class="filter" data-filter=".developed"><a href="#0" data-type="developed">Developed</a></li>
-          <li class="filter" data-filter=".responsive"><a href="#0" data-type="responsive">Responsive</a></li>
-          <li class="filter" data-filter=".cms"><a href="#0" data-type="cms">CMS</a></li>
-          <li class="filter" data-filter=".live"><a href="#0" data-type="live">Live</a></li>
-          <li class="filter" data-filter=".latest"><a href="#0" data-type="latest">Latest</a></li>
-          <li class="filter" data-filter=".db"><a href="#0" data-type="db">MySQL</a></li>
-        </ul> <!-- cd-filters -->
-      </div> <!-- cd-tab-filter -->
-    </div> <!-- cd-tab-filter-wrapper -->
-
-    <section class="cd-gallery">
-      <ul>
-        <li class="mix developed html css php latest responsive design live" data-load="daphne"><img src="images/portfolio/daphne-thumb.jpg" alt="Link to Daphnes section"></li>
-        <li class="mix developed html css php latest  responsive design live" data-load="ksegura"><img src="images/portfolio/ksegura-thumb.jpg" alt="Link to KSegura Photograpy section"></li>
-        <li class="mix developed html css php design" data-load="designpros"><img src="images/portfolio/designpros-thumb.jpg" alt="Link to Design Pros section"></li>
-        <li class="mix developed html css php  db mysql cms" data-load="digiprint"><img src="images/portfolio/digiprint-thumb.jpg" alt="Link to Digiprint section"></li>
-        <li class="mix developed html css php  latest responsive design live" data-load="jevans"><img src="images/portfolio/jevans-thumb.jpg" alt="Link to Jennifer Evants section"></li>
-        <li class="mix developed html css php  design live" data-load="knotted"><img src="images/portfolio/knotted-thumb.jpg" alt="Link to Knotted Ribbon"></li>
-        <li class="mix developed html css php   latest responsive design" data-load="midpath"><img src="images/portfolio/midpath-thumb.jpg" alt="Link to Midpath"></li>
-        <li class="mix developed html css php  responsive design" data-load="nocostdrugs"><img src="images/portfolio/nocostdrugs-thumb.jpg" alt="Link to NoCostDrugs section"></li>
-        <li class="mix developed html css php  db mysql wordpress cms live" data-load="pnp"><img src="images/portfolio/pnp-thumb.jpg" alt="Link to PNP section"></li>
-        <li class="mix developed html css php  db mysql design cms" data-load="surtech"><img src="images/portfolio/surtech-thumb.jpg" alt="Link to Surtech section"></li>
-        <li class="gap"></li>
-        <li class="gap"></li>
-        <li class="gap"></li>
-      </ul>
-      <div class="cd-fail-message">No results found</div>
+    <section class="portfolio-wrapper">
     </section> <!-- cd-gallery -->
 
   </main> <!-- cd-main-content -->

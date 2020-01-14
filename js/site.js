@@ -1,13 +1,24 @@
 //custom funtions for the site
-$('.dismiss').click(function(){
-    localStorage.setItem("Notice", "dismissed");
-    $(".updating").hide();
-  }
-);
+
 $(document).ready(function() {
+  //Temporary message while I work on my site
+  $('.dismiss').click(function(){
+      localStorage.setItem("Notice", "dismissed");
+      $(".updating").hide();
+    }
+  );
+
+  //Add active stay via js
   $('li.active').removeClass('active');
   $('a[href="' + location.pathname + '"]').closest('li').addClass('active');
+
+
+
+
+
 });
+
+
 
 $(".cd-gallery ul li").click(function(){
   //console.log($(this).data("load"));
@@ -20,7 +31,8 @@ $(".cd-gallery ul li").click(function(){
     loadUrl: 'projects/'+project+'.html' //Uses jQuery.load()
   },
   function() {
-      var bPopup = $('#project-desc').bPopup();   setTimeout(function(){
+      var bPopup = $('#project-desc').bPopup();
+      setTimeout(function(){
         bPopup.reposition(1000);
       }, 500);
   });

@@ -21,13 +21,43 @@
         {
           "languages" : [{"HTML", "CSS3", "PHP", "Javascript"}],
           "frameworks" : [{"jQuery", "bootstrap"}],
-          "skills" : [{"Development", "Design" }]
+          "skills" : [{"Development", "Design", "branding", "marketing" }]
         }
       ],
-      "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI designer for graphics and also provided the company with \"How to ...\" videos. I became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
+      "description" : "<p>Developing the branding for Apokaradokia, LLC has been one of the most well rounded projects I have been a part of. It encompassed a full branding package for 7 companies, everything from logo and stationary to digital presence</p><p>Part of the challenge was to interprete some of the less literal logos into something cohesive and that still felt like part of the family of companies (i.e. Kovenant, a clothing line, sharing space with Arrow of Victory an LLC regitrar). The solution was to use arrows as an element to tie all the logos together, they also all share a two tone approach in which each logo shares a color with at least one other logo of the family.</p>",
       "images" : [{"iAmLife-thumb.jpg"}]
-      "demo-url" : false,
-      "live-url" : "https://iamlife.com",
+      "demo-url" : "apokaradokia",
+      "live-url" : false,
+      "tags" : {"design", "development"}
+    },
+    {
+      "name": "Civica Sofware",
+      "highlights": [
+        {
+          "languages" : [{"HTML5", "CSS3", "Classic ASP", "Javascript"}],
+          "frameworks" : [{"jQuery", "Foundation Zurb"}],
+          "skills" : [{"Development", "Design", "CMS Integration" }]
+        }
+      ],
+      "description" : "<p>At Civica I was part of a team of great designers and developers. The design process allowed clients to have 3 different designs, for many of these cities I needed to provide multiple designs with completely diffent flavors, while still fitting into the loose template of the Civica CMS. </p>",
+      "images" : [{"civica-thumb.jpg"}],
+      "demo-url" : "civica",
+      "live-url" : false,
+      "tags" : {"design", "development"}
+    },
+    {
+      "name": "Banded Glory",
+      "highlights": [
+        {
+          "languages" : [{"HTML", "CSS3", "PHP", "MySQL"}],
+          "frameworks" : [{"jQuery", "bootstrap"}],
+          "skills" : [{"Development", "CMS", "e-Commerce" }]
+        }
+      ],
+      "description" : "<p>As simple project that required a full range of skills, logo redesign (done in partnership with another contractor), website design, and a simple eCommerce solution to avoid monthly fees.</p>",
+      "images" : [{"bandedglory-thumb.jpg"}]
+      "demo-url" : "bandedglory",
+      "live-url" : false,
       "tags" : {"design", "development"}
     },
     {
@@ -55,7 +85,7 @@
         }
       ],
       "description" : "<p>Long time friend and client Daphne Valerious needed a portfolio website for her production reel and other functions. After stablishing that she wanted a one page layout, looking at some inspirations sites, and some quick mockups, this is the layout we agreed on.</p><p>One of the main challenges for this site was keeping the user in the same page, to achieve this all galleries and videos are loaded with either lightbox (for galleries) or bPopUp (for any other content).</p><p>The color scheme comes from Daphne's logo, also we chose a dark background on certain sections to make the imagery stand out more and give the site contrast.</p>",
-      "images" : [{"daphne-thumb.jpg"}]
+      "images" : [{"daphne-thumb.jpg"}],
       "demo-url" : "daphne",
       "live-url" : "http://www.daphnevalerius.com",
       "tags" : {"design", "development"}
