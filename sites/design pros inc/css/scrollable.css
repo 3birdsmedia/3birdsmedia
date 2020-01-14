@@ -1,0 +1,98 @@
+/* main vertical scroll */
+	#slideContainer {
+	      width:920px;
+	      margin:auto;
+	      position:relative;
+	      height:520px;
+	}
+
+	#main {
+	      display:none;
+		position:relative;
+		overflow:hidden;
+		height: 460px;
+		-moz-box-shadow:2px 2px 4px #555;
+		-webkit-box-shadow:2px 2px 4px #555;
+		box-shadow:2px 2px 4px #555;
+	}
+/* root element for pages */
+	#pages {
+		position:absolute;
+		height:20000em;
+	}
+/* single page */
+	.page {
+		     background-color:#D0D2D3;
+		     height: 475px;
+		     padding: 20px;
+		     width: 720px;
+	}
+
+/* root element for horizontal scrollables */
+	.scrollable {
+		position:relative;
+		overflow:hidden;
+		width: 720px;
+		height: 410px;
+		top:-15px;
+	}
+/* root element for scrollable items */
+	.scrollable .items {
+		width:20000em;
+		position:absolute;
+		clear:both;
+	}
+/* single scrollable item */
+	.item {
+		float:left;
+		cursor:pointer;
+		width:720px;
+		height:410px;
+		padding:0px;
+	}
+/* main navigator */
+
+	#main_navi {
+		float:right;
+		padding:0px !important;
+		margin:0px !important;
+		-moz-box-shadow:2px 2px 4px #555;
+		-webkit-box-shadow:2px 2px 4px #555;
+		box-shadow:2px 2px 4px #555;
+		position:relative;
+	        z-index:100;
+	}
+	#main_navi li {
+	      background-color: #FFFFFF;
+	      color: #D0D2D3;
+	      cursor: pointer;
+	      font-size: 10px;
+	      height: 45px;
+	      list-style-type: none;
+	      padding: 10px;
+	      width: 140px;
+       }
+
+	#main_navi li:hover {background-color:#B7B9B9;color:#A9181E;}
+	#main_navi li.active {background-color:#D0D2D3;color:#DA2128;}
+	#main_navi img { float:left; margin-right:10px;}
+	#main_navi strong {display:block;}
+	#main div.navi {
+            cursor: pointer;
+            float: right;
+            position: relative;
+            right: 0px;
+           top: 415px;
+	}
+
+.navi a {
+    background: url("images/navigator.jpg") no-repeat scroll -1px -34px transparent;
+    display: block;
+    float: left;
+    font-size: 1px;
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+}
+.navi a:hover {background: url("images/navigator.jpg") no-repeat scroll -1px -17px transparent;}
+.navi a.active {background: url("images/navigator.jpg") no-repeat scroll -1px -0px transparent;}

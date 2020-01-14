@@ -17,7 +17,7 @@ include('includes/functions.php');
 <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"  media="screen">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
 <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300|Josefin+Slab:400,700,100' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css"  media="screen" />
@@ -65,7 +65,7 @@ include('includes/functions.php');
                   <div class="timeline-category exp-category">
                     <span class="large bt-timeline">Work Experience</span>
                     <div class="timeline-category-icon">
-                      <div class="iconspace"><i class="glyphicon glyphicon-briefcase"></i></div>
+                      <div class="iconspace"><i class="fas fa-briefcase"></i></div>
                     </div> <!-- /.timeline-category-icon end -->
                   </div> <!-- /.timeline-category end -->
 
@@ -225,7 +225,7 @@ include('includes/functions.php');
                   <div class="timeline-category edu-cagegory">
                     <span class="large bt-timeline">Education</span>
                     <div class="timeline-category-icon">
-                      <div class="iconspace"><i class="glyphicon glyphicon-apple"></i></div>
+                      <div class="iconspace"><i class="fas fa-glasses"></i></div>
                     </div> <!-- /.timeline-category-icon end -->
                   </div> <!-- /.timeline-category end -->
                     <div class="timeline-post artins">
@@ -275,7 +275,7 @@ include('includes/functions.php');
 
                 <!-- Education Timeline -->
 
-                  <div class="timeline-end-icon"><span> <i class="glyphicon glyphicon-bookmark"></i></span></div>
+                  <div class="timeline-end-icon"><span> <i class="fas -bookmark"></i></span></div>
                 </div><!-- end .timeline -->
               </div><!-- end .col-md-12 -->
 
@@ -287,8 +287,8 @@ include('includes/functions.php');
           <section>
           <div class="container">
             <div class="row">
-              <div class="col-md-3 row skils-icon">
-                  <i class=" glyphicon glyphicon-sunglasses"></i>
+              <div class="col-md-3 skils-icon">
+                  <i class="fas fa-laptop"></i>
               </div>
               <div class="col-md-9 row">
                 <h3>Computer Knowledge/Additional Skills</h3>

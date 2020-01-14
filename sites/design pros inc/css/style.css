@@ -1,0 +1,978 @@
+/*
+Project: Design Pros
+File: css/style.css
+Last edited: December 15, 2010, 12:30 pm
+*/
+/*  
+Sticky  Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.csssticky.com
+*/
+* {
+	margin:0;
+	padding:0;
+}
+
+
+
+a {
+    color:#DA2128;
+    text-decoration:none;  
+}
+
+a:hover{color:#ccc;}
+a:visited{color:#E64449}
+h1{}
+
+h2{margin-bottom:10px;color:#DA2128;border-bottom:0.1em solid;    height: 27px;
+    margin-bottom: 10px;}
+
+h3{font-size:0.9em; font-weight:bold;    margin: 5px 0px 10px 0px;}
+
+p{font-size:0.9em; line-height:1.4;
+margin-bottom:11px;}
+
+#accordion li {list-style:disc inside;font-size: 0.9em;line-height: 1.4; margin-bottom: 3px; margin-left:5px;}
+#accordion ul {margin-bottom:5px;}
+
+@font-face {
+    font-family: "Code_light";
+    src: url("type/code_light.eot");
+}
+
+@font-face {
+    font-family: "Code_light";
+    font-style: normal;
+    font-weight: normal;
+    src: url("type/code_light.woff") format("woff"), url("type/code_light.ttf") format("truetype"), url("type/code_light.svg") format("svg");
+}
+  
+@font-face {
+    font-family: "Code_bold";
+    src: url("type/code_bold.eot");
+}
+@font-face {
+    font-family: "Code_bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("type/code_bold.woff") format("woff"), url("type/code_bold.ttf") format("truetype"), url("type/code_bold.svg") format("svg");
+}    
+  
+
+#navBar h3, #navBar h4 { font-family: "Code_bold", Arial Narrow, Arial, Helvetica, sans-serif; font-weight:100 }
+
+
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your  gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+
+html, body {
+	height: 100%;
+        font-family:Arial, Helvetica, Sans-serif;
+}
+#wrapper {
+	background:url('../images/bg.jpg') repeat-x;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	width:100%;
+	margin: 0 auto -440px; /* the bottom margin is the negative value of the 's height */
+}
+#footer, #push {
+	height: 440px; /* .push must be the same height as . */
+                        clear:both;
+}
+#footer{
+    background:url("../images/footer_gradient.jpg") repeat-x 0 0 #000000;
+    display:block;
+    color:#FFF;
+z-index:-1;
+}
+/*
+
+Sticky  by Ryan Fait
+http://ryanfait.com/
+
+*/
+/*======================================================Main COnt=================================================*/
+
+#header {
+	color:#000000;
+	width: 100%;
+        height: 166px;
+}
+
+#header h1 {
+    background: url('../images/Design_Pros_Logo.gif');
+    display:block;
+    position:relative;
+    width:277px;
+    height:126px;
+    top:21px;
+    z-index:1000;
+    float:left;
+}
+
+#header span {
+    display:none;
+}
+#container{
+    width:1024px;
+    margin:auto;
+}
+
+#content {
+top:35px;
+position:relative;
+}
+
+#left-cont {
+    clear: right;
+    display: block;
+    float: left;
+    left: 25px;
+    min-height: 100%;
+    position: relative;
+    width: 600px;
+    }
+
+#right-cont {
+    clear: right;
+    display: block;
+    float: left;
+    left: 75px;
+    min-height: 100%;
+    position: relative;
+    width: 400px;
+}
+
+.accLeft {
+    float: left;
+    margin-right: 20px;
+    width: 325px;
+}
+
+#servImg{width:530px;
+height:550px;
+display:block;
+float:left;clear:right;
+}
+
+#servImg img{
+    position:absolute;
+
+}
+
+#modules{
+    width:865px;
+    position:relative;
+    margin:auto;
+    height:185px;
+    top:190px;
+    color:#100;
+}
+
+#testimonial {margin: 0px 27px;}
+#testimonial h4 {font-size:18px; text-transform:capitalize; margin-bottom:10px;}
+#social{text-align:center;}
+.estimate{top:10px;position:relative;}
+.module p {
+   font-size:14px;
+}
+
+.module {
+    display: block;
+    float: left;
+    height: 135px;
+    position: relative;
+    width: 270px;
+}
+
+.module a{
+display:block !important;
+float:left;
+}
+/*=========================================================================TESTIS TESTIS TESTIS TESTIS TESTIS TESTIS =================================================*/
+
+.testHeader {color:#000 !important; font-weight:normal !important;}
+.testiName {   text-align:right;margin-bottom:15px;}
+.testiBody {font-style:italic;margin-bottom:15px;}
+
+
+/*=========================================================================CONTACT US CONTACT US CONTACT US CONTACT US =================================================*/
+
+.employee{
+float:left;
+clear:left;
+width:600px;
+margin-bottom:30px;
+}
+
+.employee img{
+    clear: none;
+    float: left;
+    width: 100px;
+}
+
+.desc {
+    display:block;
+    float:left;
+}
+
+#map{float:left;}
+#info{width:300px;float:left;}
+
+
+
+/*========================================================================= ESTIMATE ESTIMATE ESTIMATE ESTIMATE ESTIMATE =================================================*/
+
+
+#estimate label{width:310px;}
+#estimate input{width:400px;}
+#estimate textarea{width:400px;}
+
+.formmodule {   float:left;     width:500px;}
+.smallInput {   float: left;    width: 25px !important;}
+#graphCheck{}
+#webCheck{}
+#printCheck{    left: 6px;
+    position: relative;
+    top: 9px;
+    z-index: 11;}
+
+.aboutLabel {
+    float:left;
+    width:200px !important;
+}
+#submitBtn {float:left;
+clear:both;
+width:300px;
+height:30px;    left: -150px;
+    margin-left: 50%;
+    position: relative;}
+
+.budgetLabel{width:100px !important;float:left;padding-bottom:10px;}
+
+#slider-range{margin-top:5px; width:400px;}
+
+ul.tabs {
+	margin-top: 20px;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 35px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+        -moz-border-radius:15px 15px 0px 0px;
+        -webkit-border-radius:15px 15px 0px 0px;
+        border-radius:15px 15px 0px 0px;
+        
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	left:-30px;
+	padding: 0px 0px 0px 20px;
+	height: 34px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 34px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+        -moz-border-radius:15px 15px 0px 0px;
+        -webkit-border-radius:15px 15px 0px 0px;
+        border-radius:15px 15px 0px 0px;
+	position: relative;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size:15px;
+	padding: 0 20px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+        height:34px;
+        -moz-border-radius:15px 15px 0px 0px;
+        -webkit-border-radius:15px 15px 0px 0px;
+        border-radius:15px 15px 0px 0px;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+
+.tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding: 10px;
+}
+
+/*======================================================NAVBAR=================================================*/
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			135px; /* left offset of submenus need to match (see below) */
+}
+
+ul.hover {
+    position:relative;
+    top:50px;
+}
+.sf-menu ul li {
+    list-style:none;
+    float:left;
+    text-decoration:none;
+    text-align:center;
+    width:135px;
+    height:120px;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			105px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			135px; /* match ul width */
+	top:			50px;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			135px; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+/*
+.sf-menu a {
+	border-left:	1px solid #fff;
+	border-top:		1px solid #CFDEFF;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}*/
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#DA2128;
+}
+.sf-menu li {
+	background:		#000;
+}
+.sf-menu li li {
+	background:		#000;
+}
+.sf-menu li li li {
+	background:		#000;
+}
+*/**/
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:url('../images/hover_bg.jpg') repeat-x 0 6px;
+	outline:		0;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			1.5em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			5em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+
+
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* point right for anchors in subs */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+#navBar {
+    background: none repeat scroll 0 0 #000000;
+    display: block;
+    height: 97px;
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+    margin-left:277px;
+    width:724px;
+}
+
+#navBar ul li {
+    float: left;
+    height: 97px;
+    list-style: none outside none;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;  
+}
+
+#navBar ul.hover li{
+    list-style:none;
+    text-decoration:none;
+    text-align:center;
+    width:135px;
+    height:20px;
+
+}
+
+
+#navBar h3{
+    font-size: 0.99em;
+    letter-spacing: 1px;
+    position: relative;
+    top: 80px;
+}
+
+#navBar h4{
+    font-size:0.75em;
+}
+
+#navBar a {
+	text-decoration:none;
+	color:#DA2128;
+
+	
+}
+
+#navBar a:hover{
+    color:#999999;
+}
+
+
+/*====================================================footerNAVBAR=================================================*/
+
+
+#footerNavBar {
+    margin: auto;
+    position: relative;
+    width: 800px;
+    top:170px;
+}
+
+#footerNavBar ul li, .navSpacer {
+    list-style:none;
+    float:left;
+    text-decoration:none;
+    text-align:center;
+    width:70px
+}
+
+.navSpacer{
+    margin-top:-5px;
+}
+
+
+
+
+#footerNavBar h3{
+	font-size:10px;
+	font-family:"Code", Arial, Helvetica, sans-serif;
+}
+
+#footerNavBar a {
+	text-decoration:none;
+	color:#FFF;
+
+	
+}
+
+#footerNavBar a:hover{color:#79ce00;}
+
+#activePage h1{
+	color:#FF7400 !important;
+}
+
+#centerNav{
+	width:800px;
+	display:block;
+	margin:auto;	
+}
+
+#infooter {
+    float:none;
+    clear:both;
+    position:relative;
+    text-align:center;
+    font-size:10px;
+    top:190px;
+    line-height:2;
+}
+
+#footGrad {
+   /* background: url("../images/_gradient.jpg") repeat-x scroll 0 0 transparent;*/
+    clear: both;
+    height: 232px;
+    position: relative;
+    width: auto;
+    border-bottom: 13px solid #DA2128;
+    top:-160px;
+    z-index:-1;
+}
+
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Most common stuff you'll need to change */
+#loader {
+    height:365px;
+    position:absolute;
+    width: 865px;
+    top:0px;
+    left:80px;
+    z-index:1;
+}
+#slider-wrapper {
+    padding: 0;
+    height:530px;
+    position:relative;
+    /*border:#DA2128 2px solid;*/
+    overflow: hidden !important;
+    width: 865px;
+    margin:auto;
+    z-index:100;
+}
+
+/* @override http://localhost/bxslider_v3_plugin/css/styles.css */
+
+/*
+ * To change the color scheme of slider change each 
+ * background property for each of the five styles below
+ */
+#slider-code { height: 450px; overflow:hidden; }
+#slider-code .viewport { float: left; width: 720px; height: 430px; top:10px; left:20px;overflow: hidden; position: relative; }
+#slider-code .buttons { display: block; margin: 30px 10px 0 0; float: left; }
+#slider-code .next { margin: 30px 0 0 10px;  }
+#slider-code .disable { visibility: hidden; }
+#slider-code .overview { list-style: none; position: absolute; padding: 0; margin: 0; left: 0; top: 0; }
+#slider-code .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 121px; border: 1px solid #dcdcdc; width: 236px;}
+	
+#slider-code .pager { overflow:hidden; list-style: none; margin: 0px; }
+#slider-code .pager li {}
+#slider-code .pagenum {  }
+#slider-code .active { }
+
+/* main navigator */
+
+	#main_navi {
+    float: right;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 20px;
+    padding: 0 !important;
+    position: relative;
+    top: 35px;
+    z-index: 100;
+		-moz-box-shadow:2px 2px 4px #555;
+		-webkit-box-shadow:2px 2px 4px #555;
+		box-shadow:2px 2px 4px #555;
+	}
+	#main_navi li {
+	      background-color: #FFFFFF;
+	      color: #D0D2D3;
+	      cursor: pointer;
+	      font-size: 10px;
+	      height: 45px;
+	      list-style-type: none;
+	      padding: 10px;
+	      width: 140px;
+       }
+
+	#main_navi li:hover {background-color:#B7B9B9;color:#A9181E;}
+	#main_navi li.active {background-color:#D0D2D3;color:#DA2128;}
+	#main_navi img { float:left; margin-right:10px;}
+	#main_navi strong {display:block;}
+
+
+
+					 
+/* main vertical scroll */
+	#slideContainer {
+    background: none repeat scroll 0 0 #C0C0C0;
+    height: 470px;
+    margin: auto;
+    position: relative;
+    width: 920px;
+	}
+
+	#main {
+		display:none;
+	     	position:relative;
+		overflow:hidden;
+		height: 430px;
+		-moz-box-shadow:2px 2px 4px #555;
+		-webkit-box-shadow:2px 2px 4px #555;
+		box-shadow:2px 2px 4px #555;
+	}
+
+/* single page */
+	.page {
+		     background-color:#D0D2D3;
+		     height: 410px;
+		     padding: 0px;
+		     width: 720px;
+	}
+.bx-wrapper{
+    margin:auto auto 20px;
+    height:410px;
+    
+}
+
+.bx-window{
+height:404px !important;
+float:left;
+}
+
+
+/*next button*/
+.bx-next {
+	position:absolute;
+	top:50%;
+	right:-0px;
+	z-index:9999;
+	width: 30px;
+	height: 50px;
+	text-indent: -999999px;
+	/*background: url('../images/next.jpg') no-repeat 0 0px;*/
+}
+
+/*previous button*/
+.bx-prev {
+	position:absolute;
+	top:50%;
+	left:0px;
+	z-index:9999;
+	width: 30px;
+	height: 50px;
+	text-indent: -999999px;
+	/*background: url('../images/prev.jpg') no-repeat 0 0px;*/
+}
+
+/*pager links*/
+.bx-pager a {
+    background: url("../images/navigator.jpg") no-repeat scroll center -74px transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 18px;
+    margin-right: 5px;
+    padding: 6px 0 2px;
+    text-align: center;
+    width: 22px;
+}
+
+/*auto start button*/
+.bx-auto .start {
+	background: url(gray_auto.png) no-repeat 0 2px;
+	padding-left: 13px;
+}
+
+/*auto stop button*/
+.bx-auto .stop {
+	background: url(gray_auto.png) no-repeat 0 -14px;
+	padding-left: 13px;
+}
+
+/*
+ * End color scheme styles
+ */
+
+
+/*next/prev button hover state*/
+.bx-next:hover,
+.bx-prev:hover {
+	background-position: 0 -50px;
+}
+
+/*pager links hover and active states*/
+.bx-pager .pager-active,
+.bx-pager a:hover {
+	background-position:center -2px;
+}
+
+/*pager wrapper*/
+.bx-pager {
+	text-align:center;
+	font-size:12px;
+	color:#666;
+	float:right;
+}
+
+/*captions*/
+.bx-captions {
+	text-align:center;
+	font-size: 12px;
+	padding: 7px 0;
+	color: #666;
+}
+
+/*auto controls*/
+.bx-auto {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.bx-auto a {
+	color: #666;
+	font-size: 12px;
+}
+	
+.thumbs {font-size:0.71em;margin:auto;width:864px; position:relative; top:25px;}
+.thumbs h3, .thumbs p  {padding-left:70px;} 
+.thumbs a {
+    color: #000000;
+    display: block;
+    float: left;
+    height: 122px;
+    text-decoration: none;
+    width: 216px;
+}
+.pager-active{
+    background-position: center -37px !important;
+    color: #FF0000 !important;
+}
+        
+        #graphic_btn {background:url('../images/thumbs/graphic_normal.png') no-repeat;}
+        #graphic_btn:hover {background:url('../images/thumbs/graphic_normal.png') no-repeat 0px -130px;}
+        
+        #web_btn {background:url('../images/thumbs/web_normal.png') no-repeat;}
+        #web_btn:hover {background:url('../images/thumbs/web_normal.png') no-repeat 0px -130px;}
+        
+        #print_btn {background:url('../images/thumbs/print_normal.png') no-repeat;}
+        #print_btn:hover {background:url('../images/thumbs/print_normal.png') no-repeat 0px -130px;}
+        
+        #business_btn {background:url('../images/thumbs/business_normal.png') no-repeat;}
+        #business_btn:hover {background:url('../images/thumbs/business_normal.png') no-repeat 0px -130px;}
+                
+     
+        
+      
+form label{
+    display:block;
+    width:120px;
+    margin-right:10px;
+    margin-bottom:0px;
+    height:20px;
+    vertical-align:middle;
+}
+
+form input{
+    height:20px;
+    display:block;
+    width:300px;
+    margin-right:5px;
+    margin-bottom:10px;
+    border:0.1em  solid #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(214,214,214)),
+    color-stop(1, rgb(255,255,255))
+);
+    background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(214,214,214) 0%,
+    rgb(255,255,255) 100%
+);
+
+}
+
+form textarea{
+    height:250px;
+    display:block;
+    width:300px;
+    margin-right:5px;
+    margin-bottom:10px;
+    border:0.1em  solid #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(214,214,214)),
+    color-stop(1, rgb(255,255,255))
+);
+    background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(214,214,214) 0%,
+    rgb(255,255,255) 100%
+);
+
+}
+
+form select{
+    margin-right:10px;
+    margin-bottom:10px;
+}
+#error{    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px dashed #DA2128;
+    display: block;
+    height: auto;
+
+    padding: 5px;
+    width: 290px;
+    color:#DA2128;
+    font-weight:bold;
+	margin-bottom:50px !important;
+}
+.error{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px dashed #DA2128;
+    display: block;
+    height: auto;
+    margin: 0 0 10px;
+    padding: 5px;
+    width: 290px;
+    color:#DA2128;
+    font-weight:bold;
+}
+
+.confirm{    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: none repeat scroll 0 0 #F3F3F3;
+    border: 1px dashed #05E300;
+    display: block;
+    height: auto;
+    margin: 0 0 50px;
+    padding: 5px;
+    width: 290px;
+    color:#05E600;
+    font-weight:bold;}
+
+a.active {
+    color:#ccc !important;
+}
+
+#upload {
+    background: url("../images/uploadbtn.jpg") no-repeat scroll 0 0 transparent;
+    display: block !important;
+    float: right;
+    height: 25px;
+    position: relative;
+    right: 25px;
+    top: 5px;
+    width: 100px;
+    z-index: 300;
+}
+
+#upload a {display:block !important;height:25px; width:100px;}
+#upload:hover{background:url('../images/uploadbtn.jpg') no-repeat 0px -25px;}
+#upload h2 {display:none;}
+
+.qq-uploader { position:relative; width: 100%;}
+
+.qq-upload-button {
+    display:block; /* or inline-block */
+    width: 105px; padding: 7px 0; text-align:center;    
+    background:#880000; border-bottom:1px solid #ddd;color:#fff;
+}
+.qq-upload-button-hover {background:#cc0000;}
+.qq-upload-button-focus {outline:1px dotted black;}
+
+.qq-upload-drop-area {
+    position:absolute; top:0; left:0; width:300px; height:100%; min-height: 70px; z-index:2;
+    background:#C4FFC3; text-align:center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px dashed #DA2128;; 
+}
+.qq-upload-drop-area span {
+    display:block; position:absolute; top: 50%; width:100%; margin-top:-8px; font-size:16px;
+}
+.qq-upload-drop-area-active {background:#90FF96;}
+
+.qq-upload-list {margin:15px 35px; padding:0; list-style:disc;}
+.qq-upload-list li { margin:0; padding:0; line-height:15px; font-size:12px;}
+.qq-upload-file, .qq-upload-spinner, .qq-upload-size, .qq-upload-cancel, .qq-upload-failed-text {
+    margin-right: 7px;
+}
+
+.qq-upload-file {}
+.qq-upload-spinner {display:inline-block; background: url("loading.gif"); width:15px; height:15px; vertical-align:text-bottom;}
+.qq-upload-size,.qq-upload-cancel {font-size:11px;}
+
+.qq-upload-failed-text {display:none;}
+.qq-upload-fail .qq-upload-failed-text {display:inline;}
+
