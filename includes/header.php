@@ -1,3 +1,13 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48260012-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-48260012-7');
+</script>
+
 <header>
   <div class="updating">
     <p>I'm cooking up some new things, until then you might encouter some quirks, no worries you can still reach me <a href="contact.php">here!</a></p>

@@ -28,14 +28,18 @@ include('includes/functions.php');
   ?>
 
 
-<main class="cd-main-content">
+<main>
   <section id="portfolio" class="sec-parallax">
-              <h1 class="title">My Work</h1>
+              <h1 class="title">A few things I've worked on</h1>
   </section>
-    <section class="portfolio-wrapper">
-    </section> <!-- cd-gallery -->
+  <section class="">
+      <h2>Galleries coming soon</h2>
+    </section>
+  <section class="portfolio-wrapper container loading d-flex flex-column">
 
-  </main> <!-- cd-main-content -->
+    </section>
+
+  </main>
   <?php
    include('includes/footer.php')
   ?>
@@ -43,7 +47,60 @@ include('includes/functions.php');
  </body>
 </html>
 
-    </script><noscript>If you dont have javascript enabled the slideshow, sorting, pop-up, etc, won't work</noscript>
+    <script type="text/javascript">
+      $(function(){
+        $.getJSON("projects/projects.json", function (projects) {
+
+          let projectsList = projects.projects;
+          let projectHolder = [];
+          $.each(projectsList, function(index){
+            //console.log(projectsList[index].id);
+            project =  '<div class="project row d-flex flex-column justify-content-center">';
+            project += '<div class="thumb align-self-center"><img class="w-100 circle" src="images/portfolio/thumbs/'+projectsList[index].images[0].toLowerCase()+'" alt="'+projectsList[index].name+'"/></div>';
+            project += '<h2 class="secondary-title align-self-center">'+projectsList[index].name+'</h3>';
+            project += '<div class="p-body lead"></div>';
+            project += '<button class="toggle fas fa-expand-alt" value="expand" data-index="'+projectsList[index].id+'"></button>';
+            project += '</div>';
+
+            projectHolder.push(project);
+          });
+
+          $('.portfolio-wrapper').removeClass('loading').append(projectHolder).hide().fadeIn(2000);
+
+          //console.log(projectsList[0].name);
+        })
+        .done(function() {
+            $('.toggle').click(function(){
+            let dataHolder = [];
+              var index = this.dataset.index;
+              if(this.value == 'expand'){
+                $(this).parent().addClass('expanded');
+                $(this).removeClass('fa-expand-alt').addClass('fa-compress-alt');
+                $.getJSON("projects/projects.json", function (data) {
+                    console.log(data.projects[index]);
+                    dataHolder = data.projects[index].description;
+                    $('.expanded .p-body').append(dataHolder).hide().fadeIn(1000);
+                }).done(function(){
+                  //$(this).parent().children('.p-body')
+
+                })
+                this.value = 'collapse';
+              }else{
+                $('.expanded .p-body').html('');
+                $(this).parent().removeClass('expanded');
+                $(this).removeClass('fa-compress-alt').addClass('fa-expand-alt');
+                this.value = 'expand';
+              }
+            });
+        });
+
+
+      })
+
+
+
+    </script>
+    <noscript>If you dont have javascript enabled the slideshow, sorting, pop-up, etc, won't work</noscript>
 
  </body>
 </html>
