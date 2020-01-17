@@ -10,8 +10,9 @@
           "skills" : ["Drupal 8", "Design" ]
         }
       ],
-      "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI designer for graphics and also provided the company with \"How to ...\" videos. I became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
-      "images" : ["iAmLife.png"],
+      "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI and graphic designer to transition the app into a light theme and produced mockups as new feauteres rolled out. I also produced the company with \"How to ...\" videos. I became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
+      "images" : ["management.png",  "media-condensed.png",  "store-filters-category.png"],
+      "thumb" : "iAmLife.png",
       "demo-url" : false,
       "live-url" : "https://iamlife.com",
       "path" : "iamlife",
@@ -28,7 +29,8 @@
         }
       ],
       "description" : "<p>Developing the branding for Apokaradokia, LLC has been one of the most well rounded projects I have been a part of. It encompassed a full branding package for 7 companies, everything from logo and stationary to digital presence</p><p>Part of the challenge was to interprete some of the less literal logos into something cohesive and that still felt like part of the family of companies (i.e. Kovenant, a clothing line, sharing space with Arrow of Victory an LLC regitrar). The solution was to use arrows as an element to tie all the logos together, they also all share a two tone approach in which each logo shares a color with at least one other logo of the family.</p>",
-      "images" : ["apokaradokia.png"],
+      "images" : [],
+      "thumb" : "apokaradokia.png",
       "demo-url" : "apokaradokia",
       "live-url" : false,
       "path" : "apokaradokia",
@@ -45,7 +47,8 @@
         }
       ],
       "description" : "<p>At Civica I was part of a team of great designers and developers. The design process allowed clients to have 3 different designs, for many of these cities I needed to provide multiple designs with completely diffent flavors, while still fitting into the loose template of the Civica CMS. </p>",
-      "images" : ["civica.png"],
+      "images" : [],
+      "thumb" : "civica.png",
       "demo-url" : "civica",
       "live-url" : false,
       "path" : "civica",
@@ -62,7 +65,8 @@
         }
       ],
       "description" : "<p>As simple project that required a full range of skills, logo redesign (done in partnership with another contractor), website design, and a simple eCommerce solution to avoid monthly fees.</p>",
-      "images" : ["bandedglory.png"],
+      "images" : [],
+      "thumb" : "bandedglory.png",
       "demo-url" : "bandedglory",
       "live-url" : false,
       "path" : "bandedglory",
@@ -79,7 +83,11 @@
         }
       ],
       "description" : "<p>Designing and developing this site was a great experience, the style of the site is more contemporary than my usual designs which has made it stand out and become a favorite porfolio piece.</p><p>Lucgrey's business model relied heavily on word to mouth to disseminate their services, therefore the website served as a showcase for potential clients of the service they could expect. This lead to the site being fairly simple and to the point: Who we are and what we do.</p></p>Not having contact information on the site was an intentional decision by the client, as they wanted to keep their clientel exclusive to referrals.</p>",
-      "images" : ["lucgrey.png"],
+      "images" : [
+                  "LG-Website-Mock.png",
+                  "LG-Logo-Collateral.png"
+                ],
+      "thumb" : "lucgrey.png",
       "demo-url" : "/sites/lucgrey/",
       "live-url" : false,
       "path" : "lucgrey",
@@ -96,7 +104,8 @@
         }
       ],
       "description" : "<p>This website was a colaboration between Design Pros, Inc on the design side and 3BirdsMedia on the development side. One of my most challenging sites yet, due to the many layers of complexity that these products carried with them. From ordering single sheets, to ordering pre-printed bulk, all this functionalities are included in the cart.</p><p>Another nice detail on this site is that it has a fully integrated CMS, this way the user could upload, edit, delete all their products. It also had an order tracking system.</p>",
-      "images" : ["digiprint.png"],
+      "images" : [],
+      "thumb" : "digiprint.png",
       "demo-url" : "digiprintnew",
       "live-url" : false,
       "path" : "digiprint",
@@ -113,7 +122,8 @@
         }
       ],
       "description" : "<p>Long time friend and client Daphne Valerious needed a portfolio website for her production reel and other functions. After stablishing that she wanted a one page layout, looking at some inspirations sites, and some quick mockups, this is the layout we agreed on.</p><p>One of the main challenges for this site was keeping the user in the same page, to achieve this all galleries and videos are loaded with either lightbox (for galleries) or bPopUp (for any other content).</p><p>The color scheme comes from Daphne's logo, also we chose a dark background on certain sections to make the imagery stand out more and give the site contrast.</p>",
-      "images" : ["daphne.png"],
+      "images" : [],
+      "thumb" : "daphne.png",
       "demo-url" : "daphne",
       "live-url" : "http://www.daphnevalerius.com",
       "path" : "daphne",

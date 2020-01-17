@@ -378,6 +378,7 @@ h2.title {
   width: 100px;
   height: 100px;
   background-color: #008c93;
+  margin-top:3em;
 
   display: inline-flex;
   align-self: center;
@@ -394,14 +395,29 @@ h2.title {
   padding: 0 20px 20px;
   margin: 100px 0 0;
   border-radius: 5px;
-  border: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0,0,0,0.1);
   position: relative;
+  background: #fff;
+  transition: all 5s ease-in-out;
 }
+.project:last-child{  margin-bottom: 50px;}
 .project .thumb{width: 100px;}
-.project img{
+.project .thumb img{
   box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
   border: 10px solid #FDFDFD;
   margin: -50px 0 10px 0;
+}
+.project .lead h3 {
+  font-weight: 100;
+  color: rgb(0,145, 140);
+}
+.project .lead .gallery img {
+  max-height: 25vh;
+}
+.badge-primary {
+  color: #fff;
+  background-color: rgb(0,145, 140);
+  font-weight: 100;
 }
 .project button.toggle{
   width: 50px;
@@ -412,12 +428,13 @@ h2.title {
   bottom: -25px;
   right: 25px;
   border: none;
-  border-radius: 100px;
-  background: rgb(0, 160,165);
+  border-radius: 5px;
+  background: rgba(0, 160,165,0.8);
   box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  transition: all 0.5s;
 }
 .project button.toggle:hover{
-  background: rgb(0, 140,145);
+  background: rgba(0, 140,145,1);
 }
 /*
 #project-desc{
