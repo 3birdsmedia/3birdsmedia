@@ -1,0 +1,133 @@
+{
+  "projects": [
+    {
+      "id" : "0",
+      "name": "iAmLife.com",
+      "highlights": [
+        {
+          "languages" : ["HTML5", "CSS3", "PHP", "Javascript"],
+          "frameworks" : ["Symphony", "Vue.js", "Quasar"],
+          "skills" : ["Drupal 8", "Design", "API", "UX/UI", "Motion Graphics" ]
+        }
+      ],
+      "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI and graphic designer to transition the app into a light theme and produced mockups as new feauteres rolled out. I also produced the company with \"How to ...\" videos. I became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
+      "images" : ["management.png",  "media-condensed.png",  "store-filters-category.png"],
+      "thumb" : "iAmLife.png",
+      "demo_url" : false,
+      "live_url" : "https://iamlife.com",
+      "path" : "iamlife",
+      "tags" : ["design", "development"]
+    },
+    {
+      "id" : "1",
+      "name": "Apokaradokia, LLC",
+      "highlights": [
+        {
+          "languages" : ["HTML", "CSS3", "PHP", "Javascript"],
+          "frameworks" : ["jQuery", "bootstrap"],
+          "skills" : ["Development", "Design", "branding", "marketing" ]
+        }
+      ],
+      "description" : "<p>Developing the branding for Apokaradokia, LLC has been one of the most well rounded projects I have been a part of. It encompassed a full branding package for 7 companies, everything from logo and stationary to digital presence</p><p>Part of the challenge was to interprete some of the less literal logos into something cohesive and that still felt like part of the family of companies (i.e. Kovenant, a clothing line, sharing space with Arrow of Victory an LLC regitrar). The solution was to use arrows as an element to tie all the logos together, they also all share a two tone approach in which each logo shares a color with at least one other logo of the family.</p>",
+      "images" : [],
+      "thumb" : "apokaradokia.png",
+      "demo_url" : "apokaradokia",
+      "live_url" : false,
+      "path" : "apokaradokia",
+      "tags" : ["design", "development"]
+    },
+    {
+      "id" : "2",
+      "name": "Civica Sofware",
+      "highlights": [
+        {
+          "languages" : ["HTML5", "CSS3", "Classic ASP", "Javascript"],
+          "frameworks" : ["jQuery", "Foundation Zurb"],
+          "skills" : ["Development", "Design", "CMS Integration" ]
+        }
+      ],
+      "description" : "<p>At Civica I was part of a team of great designers and developers. The design process allowed clients to have 3 different designs, for many of these cities I needed to provide multiple designs with completely diffent flavors, while still fitting into the loose template of the Civica CMS. </p>",
+      "images" : [],
+      "thumb" : "civica.png",
+      "demo_url" : "civica",
+      "live_url" : false,
+      "path" : "civica",
+      "tags" : ["design", "development"]
+    },
+    {
+      "id" : "3",
+      "name": "Banded Glory",
+      "highlights": [
+        {
+          "languages" : ["HTML", "CSS3", "PHP", "MySQL"],
+          "frameworks" : ["jQuery", "bootstrap"],
+          "skills" : ["Development", "CMS", "e-Commerce" ]
+        }
+      ],
+      "description" : "<p>As simple project that required a full range of skills, logo redesign (done in partnership with another contractor), website design, and a simple eCommerce solution to avoid monthly fees.</p>",
+      "images" : [],
+      "thumb" : "bandedglory.png",
+      "demo_url" : "bandedglory",
+      "live_url" : false,
+      "path" : "bandedglory",
+      "tags" : ["design", "development"]
+    },
+    {
+      "id" : "4",
+      "name": "LucGrey",
+      "highlights": [
+        {
+          "languages" : ["HTML", "CSS3"],
+          "frameworks" : ["jQuery", "bootstrap"],
+          "skills" : ["Design", "Development", "branding", "marketing"]
+        }
+      ],
+      "description" : "<p>Designing and developing this site was a great experience, the style of the site is more contemporary than my usual designs which has made it stand out and become a favorite porfolio piece.</p><p>Lucgrey's business model relied heavily on word to mouth to disseminate their services, therefore the website served as a showcase for potential clients of the service they could expect. This lead to the site being fairly simple and to the point: Who we are and what we do.</p></p>Not having contact information on the site was an intentional decision by the client, as they wanted to keep their clientel exclusive to referrals.</p>",
+      "images" : [
+                  "LG-Website-Mock.png",
+                  "LG-Logo-Collateral.png"
+                ],
+      "thumb" : "lucgrey.png",
+      "demo_url" : "/sites/lucgrey/",
+      "live_url" : false,
+      "path" : "lucgrey",
+      "tags" : ["design", "development"]
+    },
+    {
+      "id" : "5",
+      "name": "Digiprint Products",
+      "highlights": [
+        {
+          "languages" : ["HTML", "CSS3", "PHP", "MySQL"],
+          "frameworks" : ["jQuery", "bootstrap"],
+          "skills" : ["Development", "CMS", "Payment Gateway Integration", "e-Commerce" ]
+        }
+      ],
+      "description" : "<p>This website was a colaboration between Design Pros, Inc on the design side and 3BirdsMedia on the development side. One of my most challenging sites yet, due to the many layers of complexity that these products carried with them. From ordering single sheets, to ordering pre-printed bulk, all this functionalities are included in the cart.</p><p>Another nice detail on this site is that it has a fully integrated CMS, this way the user could upload, edit, delete all their products. It also had an order tracking system.</p>",
+      "images" : [],
+      "thumb" : "digiprint.png",
+      "demo_url" : "digiprintnew",
+      "live_url" : false,
+      "path" : "digiprint",
+      "tags" : ["design", "development"]
+    },
+    {
+      "id" : "6",
+      "name": "Daphne Valerius Portfolio",
+      "highlights": [
+        {
+          "languages" : ["HTML", "CSS3"],
+          "frameworks" : ["jQuery", "bootstrap"],
+          "skills" : ["Development", "Design" ]
+        }
+      ],
+      "description" : "<p>Long time friend and client Daphne Valerious needed a portfolio website for her production reel and other functions. After stablishing that she wanted a one page layout, looking at some inspirations sites, and some quick mockups, this is the layout we agreed on.</p><p>One of the main challenges for this site was keeping the user in the same page, to achieve this all galleries and videos are loaded with either lightbox (for galleries) or bPopUp (for any other content).</p><p>The color scheme comes from Daphne's logo, also we chose a dark background on certain sections to make the imagery stand out more and give the site contrast.</p>",
+      "images" : [],
+      "thumb" : "daphne.png",
+      "demo_url" : "daphne",
+      "live_url" : "http://www.daphnevalerius.com",
+      "path" : "daphne",
+      "tags" : ["design", "development"]
+    }
+  ]
+}

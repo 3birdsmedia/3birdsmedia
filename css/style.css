@@ -176,9 +176,9 @@ section.parallax {
   z-index: -1;
 }
 .navbar-dark{background: #222;}
-.navbar-nav li a {color: rgba(255, 255, 255, 0.7);}
-.navbar-nav li a:hover,
-.navbar-nav li a:focus {color: rgba(255, 255, 255, 1);}
+header .navbar-nav li a {color: rgba(255, 255, 255, 0.7);}
+header .navbar-nav li a:hover,
+header .navbar-nav li a:focus {color: rgba(255, 255, 255, 1);}
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 #home-port::after {  background-image: url('../images/portfolio.jpg');}
@@ -305,7 +305,7 @@ a:hover, a:focus{color:#f3a400;}
   align-content: center;
 }
 
-.blurb > a{width: 100%;display: inline-block;text-align: center;}
+/*.blurb > a{width: 100%;display: inline-block;text-align: center;}*/
 h1.title,
 span.title {
   color: #f3a400;
@@ -354,15 +354,20 @@ h2.title {
   color: #333;
 }
 
-.blurb .btn{
+.btn{
     background: #f3a400;
-    color: #fff;
+    color: #fff !important;
     text-transform: uppercase;
     font-weight: bold;
     width: auto;
-    border-radius: 0;
-    padding: 0.5em;
-    font-size: 0.7em;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+.btn:hover,
+.btn:focus{
+    background: #f27900;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn-port{
@@ -392,7 +397,7 @@ h2.title {
 }
 
 .project{
-  padding: 0 20px 20px;
+  padding: 0 15px 15px;
   margin: 100px 0 0;
   border-radius: 5px;
   border-top: 1px solid rgba(0,0,0,0.1);
@@ -413,10 +418,11 @@ h2.title {
 }
 .project .lead .gallery img {
   max-height: 25vh;
+  cursor: pointer;
 }
 .badge-primary {
-  color: #fff;
-  background-color: rgb(0,145, 140);
+  color: rgb(0,105, 100);
+  background-color: rgba(0,15, 10,0.05);
   font-weight: 100;
 }
 .project button.toggle{
@@ -546,12 +552,15 @@ footer .navbar-brand {
       line-height: 0em;
 
 }
-footer .nav a {
+/*footer .nav a {
     padding: 1.9em 0.5em 1em;
     font-size: 0.8em;
     text-transform: lowercase;
     color: #f3a400;
   }
+footer .nav a:hover,
+footer .nav a:focus {color: #f3a400;}*/
+
 .studies-blurb h3 {
     font-size: 2em;
     text-transform: uppercase;
@@ -620,7 +629,8 @@ footer .nav a {
     }
     .parallax::after,
     .sec-parallax::after {
-        transform: translateZ(-1px) scale(1.5);
+        transform: translateZ(0px) scale(1.5);
+        transform-style: preserve-3d
     }
 
     footer .nav a {
@@ -885,7 +895,7 @@ footer .nav a {
     left: 48.3%;
     line-height: 40px;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     text-align: center;
     width: 40px;
     z-index: 6;

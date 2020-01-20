@@ -43,16 +43,37 @@ include('includes/functions.php');
   </div>
  </body>
 </html>
-
     <script type="text/javascript">
       $(function(){
+
+          function imgEnlarge(img){
+            let src = $(this).attr('src');
+              $('<div>').css({
+                  background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+                  backgroundSize: 'contain',
+                  width:'100%', height:'100%',
+                  position:'fixed',
+                  zIndex:'10000',
+                  top:'0',
+                  left:'0',
+                  display: 'none',
+                  cursor: 'zoom-out'
+              }).click(function(){
+                  $(this).fadeOut(500,function(){
+                      $(this).remove();
+                      });
+              }).appendTo('body').hide().fadeIn(500);
+          }
+
+
+
         $.getJSON("projects/projects.json", function (projects) {
 
           let projectsList = projects.projects;
           let projectHolder = [];
           $.each(projectsList, function(index){
             //console.log(projectsList[index].id);
-            project =  '<div class="project row d-flex flex-column justify-content-center">';
+            project =  '<div class="project row d-flex flex-column justify-content-center" id="'+projectsList[index].path+'">';
             project += '<div class="thumb align-self-center"><img class="w-100 circle" src="images/portfolio/thumbs/'+projectsList[index].thumb.toLowerCase()+'" alt="'+projectsList[index].name+'"/></div>';
             project += '<h2 class="secondary-title align-self-center">'+projectsList[index].name+'</h3>';
             project += '<div class="p-body lead"></div>';
@@ -77,42 +98,59 @@ include('includes/functions.php');
                 dad.addClass('expanded');
                 $(this).removeClass('fa-expand-alt').addClass('fa-compress-alt');
                 $.getJSON("projects/projects.json", function (data) {
-                    dataHolder = '<div class="gallery d-flex flex-row justify-content-center">';
+                    var project = data.projects[index];
+                    dataHolder = '<div class="gallery justify-content-center w-100 py-3 text-center" >';
 
-                    if(data.projects[index].images !== '' || typeof data.projects[index].images !== 'undefined'){
-                      $.each(data.projects[index].images, function(i){
-                          console.log(data.projects[index].images[i]);
-                          dataHolder += '<img src="images/portfolio/'+data.projects[index].path+'/'+data.projects[index].images[i]+'"/>';
+                    if(project.images !== '' || typeof project.images !== 'undefined'){
+                      $.each(project.images, function(i){
+                          console.log(project.images[i]);
+                          dataHolder += '<img class="mr-3 mb-3" src="images/portfolio/'+project.path+'/'+project.images[i]+'"/>';
                       });
                     };
                     dataHolder += '</div>';
-                    dataHolder += data.projects[index].description;
+                    dataHolder += project.description;
+                    if(project.demo_url !== false || project.live_url !== false){
+                      dataHolder += '<div class="d-flex flex-row justify-content-center">';
+                        if(project.demo_url !== false){
+                            dataHolder += '<a class="m-3 btn btn-lg"  href="'+project.demo_url+'" target="_blank">Demo Site</a>';
+                        };
+                        if(project.live_url !== false){
+                            dataHolder += '<a class="m-3 btn btn-lg" href="'+project.live_url+'" target="_blank">Live Site</a>';
+                        };
+                      dataHolder += '</div>';
+                    };
                     dataHolder += '<div class="row">';
-                    dataHolder += '<div class="col-4">';
+                    dataHolder += '<div class="col-sm-4">';
                     dataHolder += '<h3>languages</h3>';
-                    $.each(data.projects[index].highlights[0].languages, function(i){
-                        dataHolder += '<span class="badge badge-pill badge-primary p-2 mr-2">'+data.projects[index].highlights[0].languages[i]+'</span>';
+                    $.each(project.highlights[0].languages, function(i){
+                        dataHolder += '<span class="badge badge-pill badge-primary px-3 py-2 mr-2 mb-3">'+project.highlights[0].languages[i]+'</span>';
                     })
                     dataHolder += '</div>';
-                    dataHolder += '<div class="col-4">';
+                    dataHolder += '<div class="col-sm-4">';
                     dataHolder += '<h3>frameworks</h3>';
-                    $.each(data.projects[index].highlights[0].frameworks, function(i){
-                        dataHolder += '<span class="badge badge-pill badge-primary p-2 mr-2">'+data.projects[index].highlights[0].frameworks[i]+'</span>';
+                    $.each(project.highlights[0].frameworks, function(i){
+                        dataHolder += '<span class="badge badge-pill badge-primary px-3 py-2 mr-2 mb-3">'+project.highlights[0].frameworks[i]+'</span>';
                     })
                     dataHolder += '</div>';
-                    dataHolder += '<div class="col-4">';
+                    dataHolder += '<div class="col-sm-4">';
                     dataHolder += '<h3>skills</h3>';
-                    $.each(data.projects[index].highlights[0].skills, function(i){
-                        dataHolder += '<span class="badge badge-pill badge-primary p-2 mr-2">'+data.projects[index].highlights[0].skills[i]+'</span>';
+                    $.each(project.highlights[0].skills, function(i){
+                        dataHolder += '<span class="badge badge-pill badge-primary px-3 py-2 mr-2 mb-3">'+project.highlights[0].skills[i]+'</span>';
                     })
                     dataHolder += '</div>';
 
                 }).done(function(){
                     dad.children('.expanded .p-body').append(dataHolder).hide().fadeIn(1000);
+                    $('.gallery img').click(imgEnlarge);
                 })
                 this.value = 'collapse';
+
+
               }else{
-                dad.children('.expanded .p-body').fadeOut(500, function(){$(this).html('')});
+                dad.children('.expanded .p-body').fadeOut(500, function(){
+                    $(this).html('');
+                    document.getElementById(dad.attr('id')).scrollIntoView({ behavior: 'smooth' });
+                });
                 dad.removeClass('expanded');
                 $(this).removeClass('fa-compress-alt').addClass('fa-expand-alt');
                 this.value = 'expand';

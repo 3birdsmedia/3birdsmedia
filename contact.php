@@ -76,38 +76,17 @@ if(isset($_POST['submit'])) {
 <link href="css/style.css" rel="stylesheet" type="text/css"  media="screen" />
 </head>
 
-
 <body>
+  <div class="wrapper">
+  <?php
+    include('includes/header.php')
+  ?>
 
-<main class="wrapper">
-<div class="updating">
-  <p>I'm cooking up some new things, until then you might encouter some quirks, no worries you can still reach me <a href="contact.php">here!</a></p>
-  <button class="dismiss">DISMISS</button>
-</div>
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.php">3birdsmedia</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="portfolio.php">Portfolio</a></li>
-            <li class=""><a href="about.php">Resume</a></li>
-            <li class=""><a href="contact.php">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+<main>
 	<section id="contact" class="sec-parallax">
               <h1 class="title">Contact Me</h1>
 	</section>
-  <section class="contactBody" >
+  <section class="contactBody p-3" >
           <div class="container">
             <div class="row">
               <div class="col-md-4 contact-img">
@@ -155,52 +134,10 @@ if(isset($_POST['submit'])) {
             </div>
 
           </section>
-
-
-<footer>
-          <div class="col-md-4">
-            <a class="navbar-brand" href="index.php">3birdsmedia</a>
-          </div>
-
-          <div class="col-md-3 text-center copyright">
-            <p>3BirdsMedia - Copyright &copy; 2011 - 2015</p>
-          </div>
-
-          <div class="col-md-5">
-
-            <ul class="nav navbar-nav">
-              <li class=""><a href="portfolio.php">Portfolio</a></li>
-              <li class=""><a href="about.php">About</a></li>
-              <li class=""><a href="about.php">Resume</a></li>
-              <li class=""><a href="testimonials.php">Testimonials</a></li>
-              <li class=""><a href="contact.php">Contact</a></li>
-            </ul>
-          </div>
-</footer>
-</main>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-      // Activate Carousel
-      $("#hp-car").carousel();      //Set localstorage variable
-      let notice = localStorage.Notice;
-           if(notice){
-              $(".updating").hide();
-           }else{
-              $(".updating").show();
-           }
-
-      $('.dismiss').click(function(){
-          localStorage.setItem("Notice", "dismissed");
-          $(".updating").hide();
-        }
-      );
-
-    </script><noscript></noscript>
-
+  </main>
+  <?php
+   include('includes/footer.php')
+  ?>
+  </div>
  </body>
 </html>
