@@ -38,7 +38,7 @@ include('includes/functions.php');
         </div>
         <div class="d-flex flex-row col-sm-6 development side">
           <div class="content w-100 d-flex">
-            <h2 class="title text-left align-self-center"><a href="/portfoloio.php#development">Dev&shye­­l&shyop&shyment</a></h2>
+            <h2 class="title text-left align-self-center"><a href="/portfolio.php#development">Dev&shye­­l&shyop&shyment</a></h2>
           </div>
         </div>
     </section>

@@ -37,22 +37,22 @@ function googleAnalytics( $googleId ){
 #		FOR LOCALHOST
 #
 ###################################################
-/**/
-    function dbConnect($type) {
-        if ($type == 'query') {
-            $user = '3bm_query';
-            $pwd = 'Qwer_7777';
-        } elseif ($type == 'admin') {
-            $user = '3bm_admin';
-            $pwd = 'Asdf_7777';
-        }else{
-            exit('Unrecognized connection type');
-        }
 
-        $conn = new mysqli('localhost', $user, $pwd,'3bm_bandedglory')
-        or die ('Cannot open database');
-        return $conn;
-    }
+    // function dbConnect($type) {
+    //     if ($type == 'query') {
+    //         $user = '3bm_query';
+    //         $pwd = 'Qwer_7777';
+    //     } elseif ($type == 'admin') {
+    //         $user = '3bm_admin';
+    //         $pwd = 'Asdf_7777';
+    //     }else{
+    //         exit('Unrecognized connection type');
+    //     }
+
+    //     $conn = new mysqli('localhost', $user, $pwd,'3bm_bandedglory')
+    //     or die ('Cannot open database');
+    //     return $conn;
+    // }
 
 ###################################################
 #
@@ -61,7 +61,7 @@ function googleAnalytics( $googleId ){
 #		FOR FRIENDLY GODADDY
 #
 ###################################################
-/*
+
     function dbConnect($type) {
         if ($type == 'query') {
             $user = 'dresstoc_3bmQ';
@@ -76,7 +76,7 @@ function googleAnalytics( $googleId ){
         $conn = new mysqli('localhost', $user, $pwd,'dresstoc_bandedglory')
         or die ('Cannot open database');
         return $conn;
-    }*/
+    }
 
 ###################################################
 #

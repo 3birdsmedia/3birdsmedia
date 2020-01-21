@@ -10,7 +10,7 @@
           "skills" : ["Drupal 8", "Design", "API", "UX/UI", "Motion Graphics" ]
         }
       ],
-      "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI and graphic designer to transition the app into a light theme and produced mockups as new feauteres rolled out. I also produced the company with \"How to ...\" videos. I became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
+      "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI designer to transition the app into a light theme and produced mockups when new feauteres were added. I also produced the company's \"How to ...\" videos and became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
       "images" : ["management.png",  "store-filters-category.png", "iamlife_landing.jpg"],
       "thumb" : "iAmLife.png",
       "demo_url" : false,
@@ -28,7 +28,7 @@
           "skills" : ["Development", "Design", "branding", "marketing" ]
         }
       ],
-      "description" : "<p>Developing the branding for Apokaradokia, LLC has been one of the most well rounded projects I have been a part of. It encompassed a full branding package for 7 companies, everything from logo and stationary to digital presence</p><p>Part of the challenge was to interprete some of the less literal logos into something cohesive and that still felt like part of the family of companies (i.e. Kovenant, a clothing line, sharing space with Arrow of Victory an LLC regitrar). The solution was to use arrows as an element to tie all the logos together, they also all share a two tone approach in which each logo shares a color with at least one other logo of the family.</p>",
+      "description" : "<p>Developing the branding for Apokaradokia, LLC has been one of the most well rounded projects I have been a part of. It encompassed a full branding package for 7 companies, everything from logo and stationary to digital presence</p><p>Part of the challenge was to interprete some of the less literal logos into something cohesive and that still felt like part of the family of companies (i.e. Kovenant, a clothing line, sharing space with Arrow of Victory an LLC regitrar). The solution was to use arrows as an element to tie all the logos together, they also use a two tone approach in which each logo shares a color with at least one other logo of the family.</p>",
       "images" : ["apo_logos.jpg", "apo-website-mock.jpg"],
       "thumb" : "apokaradokia.png",
       "demo_url" : "sites/Apokaradokia",
@@ -46,7 +46,7 @@
           "skills" : ["Development", "CMS", "e-Commerce" ]
         }
       ],
-      "description" : "<p>As simple project that required a full range of skills, logo redesign (done in partnership with another contractor), website design, and a simple eCommerce solution to avoid monthly fees.</p>",
+      "description" : "<p>A simple project that required a full range of skills, logo redesign (done in partnership with another contractor), website design, and a simple eCommerce solution to avoid monthly fees.</p>",
       "images" : [],
       "thumb" : "bandedglory.png",
       "demo_url" : "sites/bandedglory",

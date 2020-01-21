@@ -176,6 +176,16 @@ section.parallax {
   z-index: -1;
 }
 .navbar-dark{background: #222;}
+.navbar-nav {
+  float: right;
+  text-transform: uppercase;
+}
+.navbar-nav li {
+  margin: 15px 0;
+}
+.navbar-nav li a {
+  font-size: 1.5em;
+}
 header .navbar-nav li a {color: rgba(255, 255, 255, 0.7);}
 header .navbar-nav li a:hover,
 header .navbar-nav li a:focus {color: rgba(255, 255, 255, 1);}
@@ -593,11 +603,6 @@ footer .nav a:focus {color: #f3a400;}*/
       padding: 0 0 0 4em;
       text-transform: uppercase;
       vertical-align: bottom;
-    }
-    .navbar-nav {
-      float: right;
-      font-size: 1.5em;
-      text-transform: uppercase;
     }
     .navbar-nav li a {
       padding: 2em 1em 1em;
