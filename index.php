@@ -33,14 +33,15 @@ include('includes/functions.php');
     <section id="choose-a-side" class="parallax">
         <div class="d-flex flex-row col-sm-6 design side">
           <div class="content text-right w-100 d-flex">
-            <h2 class="title align-self-center"><a href="/portfolio.php#design">Design</a></h2>
+            <h2 class="title align-self-center"><a href="portfolio.php#design">Design</a></h2>
           </div>
         </div>
         <div class="d-flex flex-row col-sm-6 development side">
           <div class="content w-100 d-flex">
-            <h2 class="title text-left align-self-center"><a href="/portfolio.php#development">Dev&shye­­l&shyop&shyment</a></h2>
+            <h2 class="title text-left align-self-center"><a href="portfolio.php#development">Dev&shye­­l&shyop&shyment</a></h2>
           </div>
         </div>
+        <button value="home-port" class="scrollDown"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
     </section>
 
 
@@ -150,5 +151,10 @@ include('includes/functions.php');
    include('includes/footer.php')
   ?>
   </div>
+  <script>
+    $('button.scrollDown').click(function(){
+      document.getElementById('home-port').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
  </body>
 </html>

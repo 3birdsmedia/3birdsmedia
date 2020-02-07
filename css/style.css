@@ -73,6 +73,11 @@ Last edited: August 29, 2015, 9:37 pm
     opacity: 0;
   }
 }
+@keyframes look{
+	0%{top:89%;}
+	40%{top:91%;}
+	100%{top:89%;}
+}
 
 /*  Main  */
 body {
@@ -209,14 +214,30 @@ header .navbar-nav li a:focus {color: rgba(255, 255, 255, 1);}
 
 #choose-a-side{
   padding: 0;
-  min-height: calc(100vh - 50px);
+  min-height: calc(95vh - 50px);
+}
+#choose-a-side button.scrollDown {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  left: calc(50% - 25px);
+  top: 90%;
+  background: none;
+  border: 0;
+  font-size: 5em;
+  color: rgba(255,255,255,0.2);
+  animation: look 2s ease infinite;
+  cursor: pointer;
+}
+#choose-a-side button.scrollDown:hover {
+  cursor: pointer;
 }
 #choose-a-side .side{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  height: calc(100vh - 50px);
+  height: calc(95vh - 50px);
 }
 
 #choose-a-side .design {
@@ -259,14 +280,11 @@ header .navbar-nav li a:focus {color: rgba(255, 255, 255, 1);}
 }
 /*Featured Pages*/
 #lucgrey .hero::after {  background-image: url('../images/portfolio/lucgrey/bg.png');}
+#iamlife .hero::after {  background-image: url('../images/portfolio/iamlife/iamlife-bg.jpg');}
 
 #wrapper {
  margin:0 auto;
  width:1200px; /*  Change to desired width :)  */
-}
-
-h1, h2, h3, h4 {
-	/*font-family: 'Josefin Slab', Slab, serif;*/
 }
 a, a:visited{color:#f27900;}
 a:hover, a:focus{color:#f3a400;}

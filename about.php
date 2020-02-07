@@ -87,7 +87,7 @@ include('includes/functions.php');
                       <div class="timeline-post-content-holder">
                         <div class="timeline-post-icon"></div>
                         <div class="timeline-post-title">
-                          <h3>Director of Marketing and Web Development: </h3>
+                          <h3>Lead Web Developer </h3>
                         </div>
                         <div class="timeline-post-subtitle">
                           <p><span>Apokaradokia, LLC – Oceanside, CA (Remote)</span><span class="timeline-duration">May 2017 – July 2018</span></p>
@@ -113,7 +113,7 @@ include('includes/functions.php');
                       <div class="timeline-post-content-holder">
                         <div class="timeline-post-icon"></div>
                         <div class="timeline-post-title">
-                          <h3>Director of Web Development</h3>
+                          <h3>Lead Web Developer</h3>
                         </div>
                         <div class="timeline-post-subtitle">
                           <p><span>LeadiD, LLC. – Newport Beach, CA</span><span class="timeline-duration">January 2016 – April 2017</span></p>
@@ -137,7 +137,7 @@ include('includes/functions.php');
                       <div class="timeline-post-content-holder">
                         <div class="timeline-post-icon"></div>
                         <div class="timeline-post-title">
-                          <h3>Interactive Media Designer:</h3>
+                          <h3>Interactive Media Designer</h3>
                         </div>
                         <div class="timeline-post-subtitle">
                           <p><span>Freelance 3 Birds Media – Santa Ana, CA</span><span class="timeline-duration"> June 2007 – Present</span></p>

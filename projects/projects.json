@@ -13,7 +13,7 @@
       "description" : "<p>At iAmLife I was part of a small team of very talented developers, my main function at the start was to provide endpoints and implement APIs required by the Front-End Development team to integrate with 3rd parties such as Reddit, Twitter, Linkedin and Stripe.</p><p>After a few months, I stepped in as the UX/UI designer to transition the app into a light theme and produced mockups when new feauteres were added. I also produced the company's \"How to ...\" videos and became support for the Front-End development team with troubleshooting and design implementation on the website and mobile app, this was done one a  Drupal 8/Vue.js/Quasar stack.</p>",
       "images" : ["management.png",  "store-filters-category.png", "iamlife_landing.jpg"],
       "thumb" : "iAmLife.png",
-      "demo_url" : false,
+      "demo_url" : "studies/iamlife.php",
       "live_url" : "https://iamlife.com",
       "path" : "iamlife",
       "tags" : ["design", "development"]
